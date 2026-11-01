@@ -1,0 +1,28 @@
+# do run_clip_voice.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:49:41 on Oct 28,2026
+# vlog -sv -work work_clip_voice ../rtl/video_clip/clip_file_preloader.v ../rtl/video_clip/clip_nn_expand.v ../rtl/video_clip/clip_play_control.v ../rtl/video_clip/clip_voice_player.v ../rtl/filesystem/fat32_file_streamer.v tb_clip_voice.sv 
+# -- Compiling module clip_file_preloader
+# -- Compiling module clip_nn_expand
+# -- Compiling module clip_play_control
+# -- Compiling module clip_voice_player
+# -- Compiling module fat32_file_streamer
+# -- Compiling module tb_clip_voice
+# 
+# Top level modules:
+# 	clip_file_preloader
+# 	clip_nn_expand
+# 	clip_play_control
+# 	tb_clip_voice
+# End time: 22:49:41 on Oct 28,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c work_clip_voice.tb_clip_voice 
+# Start time: 22:49:41 on Oct 28,2026
+# Loading sv_std.std
+# Loading work_clip_voice.tb_clip_voice
+# Loading work_clip_voice.clip_voice_player
+# TB_PASS preloaded voice RAM: two continuous-active voice cycles, 192000 PCM outputs match 16000 signed bytes x6; loop restart, backpressure and cancel
+# ** Note: $finish    : tb_clip_voice.sv(33)
+#    Time: 23210250 ns  Iteration: 1  Instance: /tb_clip_voice
+# End time: 22:49:44 on Oct 28,2026, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 0

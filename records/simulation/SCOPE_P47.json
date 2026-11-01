@@ -1,0 +1,21 @@
+{
+  "baseline_release_files_reverified": 226,
+  "frozen_p44_records_reverified": 197,
+  "changed_rtl": [
+    "rtl/filesystem/fat32_bmp_read.v",
+    "rtl/filesystem/fat32_file_streamer.v",
+    "rtl/framebank/media_player_control.v",
+    "rtl/framebank/media_video_pipeline.v",
+    "rtl/top.v",
+    "rtl/video_clip/clip_play_control.v",
+    "rtl/video_clip/clip_voice_player.v"
+  ],
+  "clocks_constraints_build_list_unchanged": true,
+  "protected_sd_sdram_fifo_timing_hdmi_unchanged": true,
+  "asset_unchanged": true,
+  "runtime_C2_crc_enabled": true,
+  "fat_cluster_advance_added_cycles": 1,
+  "invalid_bmp_metadata_error_added_cycles": 4,
+  "baseline_bit_sha256": "4787b61046e43fca2faf71a6a59e32e659cf9019c89aac7df458b9ea7d483279",
+  "asset_sha256": "9c4521f97c419fe75e9a6ee36e268a4120e3223fa8ec12acc1b90236be3c24e5"
+}

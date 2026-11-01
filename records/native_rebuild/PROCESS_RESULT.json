@@ -1,0 +1,22 @@
+{
+  "native_exit_code": 0,
+  "elapsed_seconds": 410.95,
+  "finished_utc": "2026-11-01T12:44:11.633408+00:00",
+  "source_input_changes": [],
+  "generated_bits": [
+    {
+      "path": "G:\\qiansai_gongcheng\\release\\al_full_rebuild_20261101\\run02\\XiaoAnVision\\fpga\\XiaoAnVision_Runs\\best_result\\XiaoAnVision.bit",
+      "bytes": 631952,
+      "sha256": "727fc4706e288a022393dec14e0d63d76b38f8df35d606df7904d3d66556c4ff",
+      "same_as_frozen_flash_bit": false
+    },
+    {
+      "path": "G:\\qiansai_gongcheng\\release\\al_full_rebuild_20261101\\run02\\XiaoAnVision\\fpga\\XiaoAnVision_Runs\\phy_1\\XiaoAnVision.bit",
+      "bytes": 631952,
+      "sha256": "727fc4706e288a022393dec14e0d63d76b38f8df35d606df7904d3d66556c4ff",
+      "same_as_frozen_flash_bit": false
+    }
+  ],
+  "stage": "TD_COMMANDS_COMPLETED",
+  "source_archive_unchanged": true
+}

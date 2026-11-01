@@ -1,0 +1,37 @@
+# do run_file_cursor_equivalence.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:50:29 on Oct 28,2026
+# vlog -sv -work work_file_eq ../rtl/filesystem/fat32_file_streamer.v reference_file_streamer.v tb_file_stream_equivalence.sv 
+# -- Compiling module fat32_file_streamer
+# -- Compiling module reference_file_streamer
+# -- Compiling module sector_model
+# -- Compiling module tb_file_stream_equivalence
+# 
+# Top level modules:
+# 	tb_file_stream_equivalence
+# End time: 22:50:29 on Oct 28,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c work_file_eq.tb_file_stream_equivalence 
+# Start time: 22:50:29 on Oct 28,2026
+# Loading sv_std.std
+# Loading work_file_eq.tb_file_stream_equivalence
+# Loading work_file_eq.reference_file_streamer
+# Loading work_file_eq.fat32_file_streamer
+# Loading work_file_eq.sector_model
+# FILE_EQ_CASE 0 bytes0 requests0 error00 added_cycles0
+# FILE_EQ_CASE 1 bytes0 requests0 error24 added_cycles0
+# FILE_EQ_CASE 2 bytes0 requests0 error24 added_cycles0
+# FILE_EQ_CASE 3 bytes1536 requests6 error00 added_cycles2
+# FILE_EQ_CASE 4 bytes2600 requests8 error00 added_cycles1
+# FILE_EQ_CASE 5 bytes512 requests2 error23 added_cycles0
+# FILE_EQ_CASE 6 bytes512 requests2 error25 added_cycles0
+# FILE_EQ_CASE 7 bytes512 requests2 error24 added_cycles0
+# FILE_EQ_CASE 8 bytes1536 requests6 error26 added_cycles2
+# FILE_EQ_CASE 9 bytes512 requests2 error23 added_cycles0
+# FILE_EQ_CASE 10 bytes512 requests2 error10 added_cycles0
+# FILE_EQ_CASE 11 bytes1300 requests6 error00 added_cycles2
+# TB_PASS file cursor transaction equivalence: 12 cases 9532 bytes; fragmented/SPC/partial/zero files, range/self-loop/EOF/visited/sector errors; one added clock per valid cluster advance
+# ** Note: $finish    : tb_file_stream_equivalence.sv(85)
+#    Time: 279530 ns  Iteration: 1  Instance: /tb_file_stream_equivalence
+# End time: 22:50:30 on Oct 28,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

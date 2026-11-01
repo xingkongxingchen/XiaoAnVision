@@ -1,0 +1,11 @@
+{
+  "tag": "loop10",
+  "seed": 23,
+  "map_mode": "area_prior",
+  "map_strategy": 1,
+  "pack_effort": "high",
+  "exit_code": 2,
+  "seconds": 1287.5886914730072,
+  "log": "G:\\qiansai_gongcheng\\huigui_paicha\\detail_p47_clip_loop_period\\build_loop10.log",
+  "source_changed_during_build": []
+}

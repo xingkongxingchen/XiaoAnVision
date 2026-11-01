@@ -1,0 +1,1170 @@
+{
+  "bitstream/campus_media_full.bit": {
+    "bytes": 631952,
+    "sha256": "9cd93289ff80836c85ac8390bd81eed5641eff19164ff116f81952128ccd7f93"
+  },
+  "docs/TD工程打开说明.md": {
+    "bytes": 3341,
+    "sha256": "78b4589b2cbdaaf026799a74a19468547db91e291b6d444071f45b121e55f1db"
+  },
+  "docs/使用说明.md": {
+    "bytes": 2628,
+    "sha256": "7277a67c9ab8319abcb208823a200003291c1af8054dbdbd06c502df9bbbc6e0"
+  },
+  "media/audio_manifest.json": {
+    "bytes": 728,
+    "sha256": "f4d81a3eb13578405cdb7cee1e930de77f2beeb0f58101fb3db98f218a252bba"
+  },
+  "media/tf_card/ALERT.PCM": {
+    "bytes": 2880000,
+    "sha256": "b2a2a747494389d57350d6d1e0c3b46a071ed3f15a6b1cc9a6be543456d882f7"
+  },
+  "media/tf_card/AUDIO.PCM": {
+    "bytes": 15086592,
+    "sha256": "4092fd7f786516de290be2048f92c651496d677772ca33a08f172c10886de09a"
+  },
+  "media/tf_card/CLIP.BIN": {
+    "bytes": 1552512,
+    "sha256": "9c4521f97c419fe75e9a6ee36e268a4120e3223fa8ec12acc1b90236be3c24e5"
+  },
+  "media/tf_card/PIC1.BMP": {
+    "bytes": 921654,
+    "sha256": "4378abab51c6d61314019759d4f1d8342c0707601c47075f17d6d9cf4f4a5f85"
+  },
+  "media/tf_card/PIC2.BMP": {
+    "bytes": 1440054,
+    "sha256": "3097ff8a327e81967ab6718d9aac8cbfbc1dc6263878ce678ee8baae6a71dfa5"
+  },
+  "media/tf_card/PIC3.BMP": {
+    "bytes": 2073654,
+    "sha256": "4f2aa23e9c957df7ed04b2e096352b0c51cc7f974473124dd2fe8c64a237c40f"
+  },
+  "media/tf_card/PIC4.BMP": {
+    "bytes": 921654,
+    "sha256": "56290ee22b20c532ff6b867318f255f69e211bbc735471568414b3de009f917f"
+  },
+  "panel/campus_autoconnect.HMI": {
+    "bytes": 8627614,
+    "sha256": "79014b2558547fcefa23f2282e44072d07c8ea1955c84e0cd9cfbc16f04534a4"
+  },
+  "panel/campus_autoconnect.tft": {
+    "bytes": 1388208,
+    "sha256": "589241df8dbfdee8db96e16fbe73d549eecd04c651552273ca5f71da9be639ff"
+  },
+  "README_提交说明.md": {
+    "bytes": 7117,
+    "sha256": "a0998c99cab3f9c5863a43a39d3d09127ede7500e13efad46070eddc27a5a022"
+  },
+  "records/flash/hardware_acceptance.json": {
+    "bytes": 591,
+    "sha256": "3e1b9e9b55d14bfc9c476df9d3e80b76a8d54ffaacb03168b30d9b9aeb6833fc"
+  },
+  "records/flash/program_and_verify.log": {
+    "bytes": 4812,
+    "sha256": "fa16518f2685a35e1e8e4a786cfbde19788ada1555920066fb31704e2070f8b5"
+  },
+  "records/flash/program_result.json": {
+    "bytes": 1185,
+    "sha256": "9ed396696f47ea6f2c6cb268ba7031bc414ddaa7831fc05125a4b5d85d8eee20"
+  },
+  "records/implementation/route.area": {
+    "bytes": 30907,
+    "sha256": "d602aac9931ff97420265105d91ad91d9f7ef9e72a009728c5d050ff93e7345f"
+  },
+  "records/implementation/route.qor": {
+    "bytes": 1313,
+    "sha256": "4f53426acdfd6162c7fbd224f3f6dbc68d7a3a6d8ea6bb5f547e6e8a9da0cc51"
+  },
+  "records/implementation/route.timing": {
+    "bytes": 714101,
+    "sha256": "c9ff1caf286081cb16f862a24bac66b590e81151df6a85961534b1a64a4dfbae"
+  },
+  "records/native_rebuild/driver.log": {
+    "bytes": 12965,
+    "sha256": "d5e58145a448438f18e93b9b7c052f82fdf499e7a305577cc18717012a0cb21b"
+  },
+  "records/native_rebuild/explicit_hold_fix/driver.log": {
+    "bytes": 22272,
+    "sha256": "581b8fd7e09a0d99bba62d38de2d7e46c598e0025c2efc0174248e2e120d822f"
+  },
+  "records/native_rebuild/explicit_hold_fix/post_route_fix.tcl": {
+    "bytes": 951,
+    "sha256": "b24b44dc05896f03e9437d1ba87663d3ac48be461728c5a47828915cfe7be77f"
+  },
+  "records/native_rebuild/explicit_hold_fix/PROCESS_RESULT.json": {
+    "bytes": 243,
+    "sha256": "79507665db9ee43af77d7ad9890a3c3bbe6b1460988c1945a600e239669da0ed"
+  },
+  "records/native_rebuild/explicit_hold_fix/route.area": {
+    "bytes": 30907,
+    "sha256": "d602aac9931ff97420265105d91ad91d9f7ef9e72a009728c5d050ff93e7345f"
+  },
+  "records/native_rebuild/explicit_hold_fix/route.qor": {
+    "bytes": 1313,
+    "sha256": "04cf3fe48dbad483c07d38f8fa6decb87602d02fa92c8a1467b00e3beeba5c20"
+  },
+  "records/native_rebuild/explicit_hold_fix/route.timing": {
+    "bytes": 717492,
+    "sha256": "111043e7864a8929969fe57925ea0e63ba37dea2d619a824efcbd637899b584a"
+  },
+  "records/native_rebuild/FULL_BUILD_AUDIT.json": {
+    "bytes": 2964,
+    "sha256": "7bd86028eee7f18ed327d33d6e002ff94c6d7492b77e9957ec3966ede58e7adb"
+  },
+  "records/native_rebuild/phy_1/final_timing.rpt": {
+    "bytes": 717180,
+    "sha256": "4975b0fe85389b29d0a3de10a24703257a33c4b7c48de4406edb20ea18e4d471"
+  },
+  "records/native_rebuild/phy_1/place.qor": {
+    "bytes": 1741,
+    "sha256": "17b6e1a54aa79d94ad825c73ece02b67792f9a71e947f003c51c9c7058a1b226"
+  },
+  "records/native_rebuild/phy_1/place_flow.status": {
+    "bytes": 1394,
+    "sha256": "63668800a4c17c7a2e09493aaeb7477a917c81f53572055e3753c9a00a81bb61"
+  },
+  "records/native_rebuild/phy_1/route.qor": {
+    "bytes": 1313,
+    "sha256": "59d3466bae450c049fd02500c8ebdca0913d4d31d3aef5cce6b69549278595b7"
+  },
+  "records/native_rebuild/phy_1/route_flow.status": {
+    "bytes": 1481,
+    "sha256": "3eca42228bd99c710dc1814a858dd61f8bf23a044cbd96d38bd76e86eff68ebc"
+  },
+  "records/native_rebuild/phy_1/run.log": {
+    "bytes": 101085,
+    "sha256": "9303da240d964ba39b0dc7130187bc4c5415743f95347dfd601fffdeff9fb3e0"
+  },
+  "records/native_rebuild/phy_1/settings.cfg": {
+    "bytes": 429,
+    "sha256": "544199942fe5714402911e578fb547459e2177d5c378f3065ad8a75eaab42951"
+  },
+  "records/native_rebuild/phy_1/XiaoAnVision_exception.timing": {
+    "bytes": 14436,
+    "sha256": "2b62a4721bc98d103e28dad78b7ba198c830027fff345a08057978a2a94cfab0"
+  },
+  "records/native_rebuild/phy_1/XiaoAnVision_phy.area": {
+    "bytes": 30907,
+    "sha256": "d602aac9931ff97420265105d91ad91d9f7ef9e72a009728c5d050ff93e7345f"
+  },
+  "records/native_rebuild/phy_1/XiaoAnVision_phy.ts": {
+    "bytes": 64,
+    "sha256": "95ae4e5ad13afa40c75727cd44176b90556a0d1513ad42b0cdbc6327572e8feb"
+  },
+  "records/native_rebuild/phy_1/XiaoAnVision_place.timing": {
+    "bytes": 698597,
+    "sha256": "dbbe0f2b95594a8150982fd1a56c3139b61dfef820f6d75f375f5a529f3b6437"
+  },
+  "records/native_rebuild/phy_1/XiaoAnVision_pr.timing": {
+    "bytes": 717180,
+    "sha256": "b004923cc112490bda347e6764ace4b1133b455e26758b717aab787353a95d1b"
+  },
+  "records/native_rebuild/PROCESS_RESULT.json": {
+    "bytes": 875,
+    "sha256": "ada5add21aadc70005077ce1dcc63bd51a721add9c9c129897f8f91616fb2195"
+  },
+  "records/native_rebuild/RUN_INPUT.json": {
+    "bytes": 809,
+    "sha256": "01139ed69599bb61839f217ae5c6010f45370ea694aec7b755fe2969cbf64bd0"
+  },
+  "records/native_rebuild/syn_1/flow.status": {
+    "bytes": 1592,
+    "sha256": "f7a4092acdd7bf83d5094c9a72ca7a5bab48875bd9eb292507eda5e6e0e4fe26"
+  },
+  "records/native_rebuild/syn_1/gate.qor": {
+    "bytes": 6996,
+    "sha256": "eb268bcfb3e45807ea59aec02a19569c283ca44ea8157413bf3b264c309d5e6a"
+  },
+  "records/native_rebuild/syn_1/run.log": {
+    "bytes": 87162,
+    "sha256": "bb1c9acd91ea55c9d0c9b1c6a5ef42045d4f2fe8d178a01aabe5fe0af935464e"
+  },
+  "records/native_rebuild/syn_1/settings.cfg": {
+    "bytes": 372,
+    "sha256": "3a964f286711599c8c8440652b95a1f8facefaf7f1a766951f0acaa57d4c5254"
+  },
+  "records/native_rebuild/syn_1/XiaoAnVision_gate.area": {
+    "bytes": 17173,
+    "sha256": "ff6e3cc553e8f3fb666ce823c3f5b33e058d58a20f0053ea515e9a59fa4c23d2"
+  },
+  "records/native_rebuild/syn_1/XiaoAnVision_gate.timing": {
+    "bytes": 760864,
+    "sha256": "6ca64f65a9f5e2e4382a8986913288bad487a12b680a47ae52820c0491d535aa"
+  },
+  "records/native_rebuild/syn_1/XiaoAnVision_gate.ts": {
+    "bytes": 65,
+    "sha256": "4a8d11be666f8f83e5fa6849f19e45a641e8b6049647620f09a646c5e611a85f"
+  },
+  "records/native_rebuild/syn_1/XiaoAnVision_rtl.area": {
+    "bytes": 15726,
+    "sha256": "21a396a6931415d13c6fc94ed9201f87c510e091e845b6a1038f8a35ccb4ff97"
+  },
+  "records/simulation/bmp_metadata.log": {
+    "bytes": 1605,
+    "sha256": "41416c58d1424b903b52681fc0be0c6efb4858926eddc8dcdc789243300bb088"
+  },
+  "records/simulation/bmp_metadata_results.json": {
+    "bytes": 264,
+    "sha256": "57feb819d2b32de3ae4d926e811e55c0709b771dd30741f257780647d30408f7"
+  },
+  "records/simulation/build_loop10.json": {
+    "bytes": 303,
+    "sha256": "3bdc2bac36a8bb722bb916b1c25de4a18c1ee7789126b9e13e7bf5416a981954"
+  },
+  "records/simulation/build_loop10.log": {
+    "bytes": 184901,
+    "sha256": "778f845c9de0f189463e2a91f6066d303b5a7900b51836cdf591987e763dde87"
+  },
+  "records/simulation/build_loop10_source.json": {
+    "bytes": 12744,
+    "sha256": "0f5609f96835dfcf430ed0457c3a83bef33a8f818777b0d22a1479e4a21d0af7"
+  },
+  "records/simulation/build_loop10r29.json": {
+    "bytes": 278,
+    "sha256": "7c5817d2914058c63f3869625f881df67d357b4f332297b61148b177dec85d38"
+  },
+  "records/simulation/build_loop10r29.log": {
+    "bytes": 97631,
+    "sha256": "e9515c8a5115591284d89f4a58543ae691b895270a6ef9637e3c096143b2f2c5"
+  },
+  "records/simulation/build_loop10r29_source.json": {
+    "bytes": 12744,
+    "sha256": "0f5609f96835dfcf430ed0457c3a83bef33a8f818777b0d22a1479e4a21d0af7"
+  },
+  "records/simulation/clip_boot.log": {
+    "bytes": 4682,
+    "sha256": "5b860614ddcd10ddda64ead5bdecf188a1923cdb57df6ab784f41521251c7fec"
+  },
+  "records/simulation/clip_boot_results.json": {
+    "bytes": 1017,
+    "sha256": "9b32620acaee18b30c0cd95a2e6d25a5ab4b20d246d10904f5e58aaf3917e700"
+  },
+  "records/simulation/clip_control.log": {
+    "bytes": 1443,
+    "sha256": "ecde1f845be58e49cea5b2c1d5d7c2eef294a5a5af3d56347aeacf912e570d40"
+  },
+  "records/simulation/clip_control_collision.log": {
+    "bytes": 1514,
+    "sha256": "91c1ada399f978736b193d30bb42606731a502a5bb5b0c4efd1d2535b19573dd"
+  },
+  "records/simulation/clip_pipeline.log": {
+    "bytes": 7071,
+    "sha256": "68ffee71fa4a882cfe343acb48496f27416cc2f8c3ee0269845081e8cda1ed59"
+  },
+  "records/simulation/clip_pipeline_results.json": {
+    "bytes": 283,
+    "sha256": "d2e2ac64fa89f4b8d95e173700ca5a7489940b2535e1d53edb03a2de36cd373a"
+  },
+  "records/simulation/clip_preload.log": {
+    "bytes": 2923,
+    "sha256": "8d43ec9760885009b9f9062e34fcab6f220a9d0271e7e31ee40be6cd1b44df87"
+  },
+  "records/simulation/clip_scaler.log": {
+    "bytes": 1346,
+    "sha256": "606b82e60011b23927ba08be01c9384ee97b8bef633de7bfe137733a4a7349f5"
+  },
+  "records/simulation/clip_unit_results.json": {
+    "bytes": 1348,
+    "sha256": "d4fc945bf78d98e71c09dfe71e2d5a97a093cf80571af43f4552ff4a034117b7"
+  },
+  "records/simulation/clip_voice.log": {
+    "bytes": 1373,
+    "sha256": "729407ccb6bf52ef8d2a54f73e5379f59dc85f0646991bc5a5c800b34761690b"
+  },
+  "records/simulation/file_cursor_equivalence.log": {
+    "bytes": 2023,
+    "sha256": "b33d1e4a41d78f0e0ccc8919b67f45063b6a970e35ad01926a2ff175815c2297"
+  },
+  "records/simulation/file_cursor_equivalence_results.json": {
+    "bytes": 256,
+    "sha256": "63bb72121e633eb7e4d113521ce54a8e5239f044e06307ac4ae131adea85a087"
+  },
+  "records/simulation/p44_regressions.json": {
+    "bytes": 1875,
+    "sha256": "69b21c7e5b78895b76503bc36d51aaac747f207479f5756c113ac3e618bf5d70"
+  },
+  "records/simulation/period_cached0.log": {
+    "bytes": 1246,
+    "sha256": "0dfe26d07cc247d2e14ffd8d5ee74b882ebd23254b5eb3435200f8bb04ea2700"
+  },
+  "records/simulation/period_cached1.log": {
+    "bytes": 1246,
+    "sha256": "ad2fbaffe9d276d30f8b71cbd8837a9ba07c83e11d224252e8efd52144e063a0"
+  },
+  "records/simulation/period_cached2.log": {
+    "bytes": 1246,
+    "sha256": "7160a712052096c9d5b5b10d3f78931b9dc0052b6609485d4883cb46be968ff7"
+  },
+  "records/simulation/period_cached3.log": {
+    "bytes": 1246,
+    "sha256": "74ceb47a2dec51c0d08ef003a91744baae1fdfa2a929838451d770d6b7e0f898"
+  },
+  "records/simulation/period_cached_results.json": {
+    "bytes": 1091,
+    "sha256": "02e69bc8c0b7f6eb7c7e73c9db97eda65792ffc153e7ad8a913ab0119a8fa184"
+  },
+  "records/simulation/SCOPE_P47.json": {
+    "bytes": 838,
+    "sha256": "ef80353bf9ec077600fe401205cbffd9c8b62c3a1d1dff6bec8a978b122e3c55"
+  },
+  "records/simulation/voice_restart_fixed.log": {
+    "bytes": 1009,
+    "sha256": "ce48203f225de08f17b8435d1bf3547d9f6861effcf0f21ee2b244a1d4f7a637"
+  },
+  "records/simulation/voice_restart_results.json": {
+    "bytes": 172,
+    "sha256": "a11c5142487a6424cbe91570ebb44036021a8a3f6720ac19c6a65150e956a416"
+  },
+  "records/td_project/folder_relocation_validation.json": {
+    "bytes": 590,
+    "sha256": "f96185f7055cbf4a732a4312fbe9b8a88739ac03a35acd67a17e895f6207ad72"
+  },
+  "records/td_project/folder_relocation_validation.log": {
+    "bytes": 30549,
+    "sha256": "2770a1f015ced417783c14fe7eda41f638685a458ef8b86cd891cbb90cdb5064"
+  },
+  "records/td_project/validation.json": {
+    "bytes": 628,
+    "sha256": "b12c0909f3541c62d84497c293bde118efe3faa676423db2c637faf9e3275a29"
+  },
+  "records/verification_summary.json": {
+    "bytes": 10775,
+    "sha256": "b259e0fb228d3b4d70cb1773a755d23d4310add5677eb8612059b59a46c89cf8"
+  },
+  "TD_Project/assets/ASSET_MANIFEST.json": {
+    "bytes": 2046,
+    "sha256": "bab7c8a5c71b5d39a2ace6d64a4e8c288c6b2f68173f01f151bb3fb361222eea"
+  },
+  "TD_Project/assets/CLIP.BIN": {
+    "bytes": 1552512,
+    "sha256": "9c4521f97c419fe75e9a6ee36e268a4120e3223fa8ec12acc1b90236be3c24e5"
+  },
+  "TD_Project/assets/clip_voice.hex": {
+    "bytes": 65536,
+    "sha256": "d98947e69c2a2966759b4c8a669733297e6fcdb6a1fe6b3cbcb71236247a1eb4"
+  },
+  "TD_Project/assets/clip_voice.s8": {
+    "bytes": 16000,
+    "sha256": "c6afd61334ac787e1434a622399aed4335a311c751f09460aab046a55b56b1ad"
+  },
+  "TD_Project/assets/IMAGE_PROMPT.txt": {
+    "bytes": 1636,
+    "sha256": "d3ce46684317d552dd8fbd74ba9d121ee4af0f36ff9f8a962c1cde13ac1b7887"
+  },
+  "TD_Project/assets/principal_sprite.png": {
+    "bytes": 1958483,
+    "sha256": "7d5c4f3ca36dd13ebf3528f9f1e9be40fcc733244a6089a3248961bcd6c7d364"
+  },
+  "TD_Project/assets/principal_voice_source.wav": {
+    "bytes": 102820,
+    "sha256": "6953669fca54316fdc7cc1c3d908964f01cab0cf6a944f224b46b406da2b423a"
+  },
+  "TD_Project/constraints/hx4s20_key_slideshow.adc": {
+    "bytes": 4092,
+    "sha256": "d5439d737b27ec3e9d766b1658d672d12d46df5333d61fce169164e307eee3c5"
+  },
+  "TD_Project/constraints/hx4s20_key_slideshow.sdc": {
+    "bytes": 3005,
+    "sha256": "22eb9aec7d65aecbfb01af486046ee8e341d674a27bdb363367cf62de538e490"
+  },
+  "TD_Project/rtl/audio/audio_source_mux.v": {
+    "bytes": 1655,
+    "sha256": "4e755bdeb8f2e13157636f94bc3bcdf8b19b876489720783de751ca7bd69e04a"
+  },
+  "TD_Project/rtl/audio/dual_fat32_pcm_source.v": {
+    "bytes": 8332,
+    "sha256": "a76d5da0707cecfd7ee93489f340698b52395874a1c6235ba56f684289f6a8e7"
+  },
+  "TD_Project/rtl/audio/emergency_audio_mix.v": {
+    "bytes": 4924,
+    "sha256": "658614ba2e8cbda154056f5679b1012e0accb1d2ab57e0e7f9a55878d4a1e454"
+  },
+  "TD_Project/rtl/audio/fat32_loop_stream.v": {
+    "bytes": 3510,
+    "sha256": "e09c0699402d2660425d6d31a8be28aeb8fa53bb9d6a7bd1e7dca24e6083179d"
+  },
+  "TD_Project/rtl/audio/fat32_pcm_source.v": {
+    "bytes": 4986,
+    "sha256": "5c1b2f60391bb8c603c7c943759365d80e1a8c1166bca4093d88d13e7a685def"
+  },
+  "TD_Project/rtl/audio/m06_pcm_contract_adapter.v": {
+    "bytes": 1770,
+    "sha256": "33e0a6ea7f76480935c27b94ee39ff7918697ede4555083327e96ba9834430c4"
+  },
+  "TD_Project/rtl/audio/pcm_master_volume.v": {
+    "bytes": 1076,
+    "sha256": "cd60ea856f524aa9e8a8fa931183cb08264b71857ddac889c742e6135d394dae"
+  },
+  "TD_Project/rtl/audio/pcm_media_tone.v": {
+    "bytes": 7312,
+    "sha256": "e709e9331f323a8738feb84970b498c609a746256b1e3b78d7c02326e547b0e0"
+  },
+  "TD_Project/rtl/audio/sync_fade_gain.v": {
+    "bytes": 2808,
+    "sha256": "400429304f46d3ce16fc99fc48eb53e6f174cc58010fa82ea0dbc17650562067"
+  },
+  "TD_Project/rtl/audio/wav_stream_player.v": {
+    "bytes": 11922,
+    "sha256": "535b97f20cf0c794cabfc4aabeb98f53314a5c6d22ceaabab678ecf18521a878"
+  },
+  "TD_Project/rtl/base/audio_arc_calculate.v": {
+    "bytes": 1702,
+    "sha256": "552d8d86afd237666b30ae08f31247808e89eb024efde5efc670b82eb617a7dc"
+  },
+  "TD_Project/rtl/base/hdmi_audio_tone_i2s_64fs.v": {
+    "bytes": 3589,
+    "sha256": "729cb1635091b7630e5b68306e9f51fff4e3e06bae8ce08cc3d7323b3fb9d5cf"
+  },
+  "TD_Project/rtl/base/hdmi_core/hdmi_1_4b_transmitter_core_wrapper.enc.v": {
+    "bytes": 328975,
+    "sha256": "867e0b0bdd874bc383d00918c9e1be3fe01edf41f343b6a0d73e262776596a63"
+  },
+  "TD_Project/rtl/base/hdmi_phy_warpper.v": {
+    "bytes": 4017,
+    "sha256": "416b082b0987001bdbc0a7e20a557cb8fb1dca34e25dc881e6d28a8cb3cf4300"
+  },
+  "TD_Project/rtl/base/I2S_receiver.v": {
+    "bytes": 4205,
+    "sha256": "08904598b42c2e1a4836cd9fb3293bc6c791ea2f79e35c7663a33127dc97f47b"
+  },
+  "TD_Project/rtl/base/include/global_def.v": {
+    "bytes": 390,
+    "sha256": "35100601213512e6501a133974fe8bb6269000ae263061f70ec24b12da2b14ab"
+  },
+  "TD_Project/rtl/base/include/sdr_as_ram.enc.v": {
+    "bytes": 7538,
+    "sha256": "767dbdfbd83d42223b77dfa7deab42ce8216a8fd6f6cb41b7e7593d9a345ba57"
+  },
+  "TD_Project/rtl/base/include/sdr_init_ref.enc.v": {
+    "bytes": 9024,
+    "sha256": "d5327dbbd3ae711acb7f9619ed2fa513d5af8036369f5e65b22760bd97a3ba97"
+  },
+  "TD_Project/rtl/base/include/sdr_wrrd.enc.v": {
+    "bytes": 15637,
+    "sha256": "c7d7fe07d75f66aa88d9f986b3006319c995162434f104f9990664b374cdfdd2"
+  },
+  "TD_Project/rtl/base/ip/afifo_16_32_256.v": {
+    "bytes": 34123,
+    "sha256": "3d29b06655482184a9ad157b9bd71b79032debe3199168d3b4d9570fdac31835"
+  },
+  "TD_Project/rtl/base/ip/afifo_32_16_256.v": {
+    "bytes": 34123,
+    "sha256": "7c3ee41f30be75ae686c9abff3a840fc5439209cda077e4aa275eac0dab9f564"
+  },
+  "TD_Project/rtl/base/ip/PLL_HDMI_AUDIO.v": {
+    "bytes": 2757,
+    "sha256": "1e174c1dc4edbce9c61d6b390aca3b7b94022b60995a92981d5278247b7f5867"
+  },
+  "TD_Project/rtl/base/ip/sys_pll.v": {
+    "bytes": 2525,
+    "sha256": "86d0dd7505ada1c9607294ab314d51b2438118fc52c053361677cec540e1153f"
+  },
+  "TD_Project/rtl/base/ip/video_pll.v": {
+    "bytes": 2256,
+    "sha256": "e89bc9bc60ed0496f7f577a928088246b01954590c2a5afea5ea0bd7ed053ac5"
+  },
+  "TD_Project/rtl/base/lane_lvds_10_1.v": {
+    "bytes": 4421,
+    "sha256": "de9529321354f04837e051d0ec1681cf44783d4be3284703a788e081147500bc"
+  },
+  "TD_Project/rtl/base/sd/ax_debounce.v": {
+    "bytes": 2201,
+    "sha256": "93aa6dd38051250cc7f777c88466ac180afe9bcdce7838b9ea506455d8cbc9b8"
+  },
+  "TD_Project/rtl/base/sd/bmp_read.v": {
+    "bytes": 19116,
+    "sha256": "03a205ffcbc0882ac6bf10527ef9047153db1f4ae73544b8804e302ef3e2d63e"
+  },
+  "TD_Project/rtl/base/sd/color_bar.v": {
+    "bytes": 9141,
+    "sha256": "afe1f56714ec58d2477ba1717e5a36c5a0da5fe5c07d70d11aa5ace710c4b152"
+  },
+  "TD_Project/rtl/base/sd/frame_fifo_read.v": {
+    "bytes": 10172,
+    "sha256": "5952075b213ec638f5c9bb238d4d4162685f9e9b5e752674f0e68a92dbec83ac"
+  },
+  "TD_Project/rtl/base/sd/frame_fifo_write.v": {
+    "bytes": 11899,
+    "sha256": "9d48e66e179c53f7209c34980fada1657881284d12a6c20d63afeafa178175d1"
+  },
+  "TD_Project/rtl/base/sd/frame_read_write.v": {
+    "bytes": 12020,
+    "sha256": "01fd2ef02f664cfc8bcd830ccd7eb200649864404f57025a5b1101c737163ab4"
+  },
+  "TD_Project/rtl/base/sd/sd_card_cmd.v": {
+    "bytes": 9515,
+    "sha256": "c8221c35fab030ed50bbd5df9cbe915bdce6ca1180e038c333433c5db0c472ad"
+  },
+  "TD_Project/rtl/base/sd/sd_card_sec_read_write.v": {
+    "bytes": 5709,
+    "sha256": "df6a8994af3608889fe1e17b8588ae8a50a98925f80308a51b3f86c88744343d"
+  },
+  "TD_Project/rtl/base/sd/sd_card_top.v": {
+    "bytes": 7467,
+    "sha256": "add413b621e113761fbabb9cbee6241d35b79b26c9e9600fc30bd7c9c6317d5d"
+  },
+  "TD_Project/rtl/base/sd/sdram.v": {
+    "bytes": 2389,
+    "sha256": "75a389f871bb8fc63e8deb9e2be822ebc4057cc5092d7410634d6fdd4099ee98"
+  },
+  "TD_Project/rtl/base/sd/spi_master.v": {
+    "bytes": 3656,
+    "sha256": "08cb91842a3be7fae0d048b30f365c773dfb439b6fd7a1e6888b7b922927d767"
+  },
+  "TD_Project/rtl/base/sd/video_define.v": {
+    "bytes": 21,
+    "sha256": "77748966850a8f5af0d77f2cdb08006088ba5e1a31b98391fba6cc61c5247da2"
+  },
+  "TD_Project/rtl/base/sd/video_delay.v": {
+    "bytes": 1595,
+    "sha256": "f47c4b63f8baa6d8874c87dca5b72dfdadd19f4a107403da98752bce98936433"
+  },
+  "TD_Project/rtl/base/sd/video_timing_data.v": {
+    "bytes": 2432,
+    "sha256": "c6f75501e98dd5995f687aafb40455beffe45b426137b5089a73ac3a036f7282"
+  },
+  "TD_Project/rtl/base/startup_pulse.v": {
+    "bytes": 713,
+    "sha256": "396e1e56febb8028339e646bc2f06b83e07ab11ef840e447422fb941956741c9"
+  },
+  "TD_Project/rtl/base/video_rgb_to_axis_640x480.v": {
+    "bytes": 1749,
+    "sha256": "1c8fc26c789f87227036bea034f1ab6fc5633f2ab2684be422c54687a290fb96"
+  },
+  "TD_Project/rtl/base/video_source_test.v": {
+    "bytes": 2983,
+    "sha256": "39cc05c9684a594d4254d11e66e97344053ab75bdb00f3f5a301643fd7aadbfc"
+  },
+  "TD_Project/rtl/control/dual_key_chord_router.v": {
+    "bytes": 5309,
+    "sha256": "89c7cb616084adb8063e1cc07cd723693733ee5fbcd1af2a6e8df140a0d8705b"
+  },
+  "TD_Project/rtl/control/dual_key_long_hold_guard.v": {
+    "bytes": 2720,
+    "sha256": "a5ff1257019a32ae7a9c6f1032f16cedb9cc6c4066b04813c014724c833739b9"
+  },
+  "TD_Project/rtl/control/emergency_control.v": {
+    "bytes": 1402,
+    "sha256": "6f051e89f4c651900eb3f65aa6119fc771048f43b85fbf312fbff4e02f22db62"
+  },
+  "TD_Project/rtl/control/emergency_scene_control.v": {
+    "bytes": 1945,
+    "sha256": "e50d77f4e3b268104d6bd54f336468a4f4db49c0d6151504b0671cc3700f982f"
+  },
+  "TD_Project/rtl/control/k3_hold_control.v": {
+    "bytes": 2122,
+    "sha256": "fe653908a316bdc4e3c6c8e8b4d5ac3f1cdda87a5b7c1f4a606a83096353a1fb"
+  },
+  "TD_Project/rtl/control/panel_control_cdc.v": {
+    "bytes": 1788,
+    "sha256": "a989b872a6d4fb0616f3f9c82788001c1fa2054c97dc8043e53f42929e0ec9dc"
+  },
+  "TD_Project/rtl/control/period_setting_control.v": {
+    "bytes": 5036,
+    "sha256": "40a30852d4b0c04d80f8450184ee8e79ff8b84375decb5708a3709093996a35d"
+  },
+  "TD_Project/rtl/control/picture_adjust_control.v": {
+    "bytes": 3531,
+    "sha256": "0fdd3f8c2aac167122d2f0f2272daf656fedd5216288f4cc86f43229a6688574"
+  },
+  "TD_Project/rtl/control/reset_sync.v": {
+    "bytes": 1350,
+    "sha256": "422024379917ce7895550df38c07600a32ecf11c4bb643e91abd235ddd42fd9d"
+  },
+  "TD_Project/rtl/control/slideshow_key_router.v": {
+    "bytes": 2390,
+    "sha256": "7c866a7c55c908f86aa819d1d4cf2f56cd412ab36bbef72ef6e4ef4c0bf9398f"
+  },
+  "TD_Project/rtl/control/slideshow_policy.v": {
+    "bytes": 3100,
+    "sha256": "fb7d3223f0f9d4179bac51680c9a823a7f7840be400ba35af2f2b50a95292b35"
+  },
+  "TD_Project/rtl/control/startup_reset.v": {
+    "bytes": 1328,
+    "sha256": "5a071a0b2565636980dbccf43e000c7c2444b77ca37321c4aaa30b8bc29287e8"
+  },
+  "TD_Project/rtl/control/sync_2ff.v": {
+    "bytes": 1486,
+    "sha256": "691a3ea359a4ac443ab87d3202a1f3398f16e46b83066efd485f25f912f47fe9"
+  },
+  "TD_Project/rtl/control/thumbnail_controller.v": {
+    "bytes": 2733,
+    "sha256": "0b80c1c529111f7ad7d2fa75284e27a4a4b495cbdd599e0427a30c21e53b5c81"
+  },
+  "TD_Project/rtl/control/wall_clock.v": {
+    "bytes": 1153,
+    "sha256": "3186316035b23bbdaff08284b7974866cebe13f63d06b1722e573659eb0efb8c"
+  },
+  "TD_Project/rtl/control/waveform_switch_control.v": {
+    "bytes": 1193,
+    "sha256": "ea7c672a27e41ca80560e31b7d9a20c9a3535df14e44642e581f3acf67ceaf62"
+  },
+  "TD_Project/rtl/display/brightness_contrast_adjust.v": {
+    "bytes": 1022,
+    "sha256": "9995cdcdf85cd152e817d1e610eea372b336d8a75bc308d55165199e0b1c460d"
+  },
+  "TD_Project/rtl/display/dynamic_subtitle_overlay.v": {
+    "bytes": 2045,
+    "sha256": "d27b300a299f654a80adc5fd4f3f6f1f0762cb8e29b29e0d41d8aa4ab820605b"
+  },
+  "TD_Project/rtl/display/emergency_scene_overlay.v": {
+    "bytes": 2939,
+    "sha256": "4bf1f63c8b5cae4629999e85e27d8a9454660f1f1d79fbea4bef600b33eedcb2"
+  },
+  "TD_Project/rtl/display/k3_params_osd.v": {
+    "bytes": 3183,
+    "sha256": "802e2a1ff0f9110282a87ea846b5cb4f38bc42d4e582508dce591b73009d2f62"
+  },
+  "TD_Project/rtl/display/load_progress_probe.v": {
+    "bytes": 2889,
+    "sha256": "8520310c7ef4adfcc0f528aad2d61f76c19649e29226009b1aa54e47bfba444a"
+  },
+  "TD_Project/rtl/display/osd_overlay_24.v": {
+    "bytes": 2823,
+    "sha256": "923f4cb10b1737da46f62d71b576b283ca411f19d6ccc2838b4d919b767ccd3b"
+  },
+  "TD_Project/rtl/display/period_setting_osd.v": {
+    "bytes": 3170,
+    "sha256": "b47f2c52fda3dd854a72b33655a0118de2979299d5a4d414453b5a312972ea0b"
+  },
+  "TD_Project/rtl/display/picture_params_osd.v": {
+    "bytes": 2263,
+    "sha256": "15b6a91dd76ffbb0ca5e675e0e9599a3f2acfc4a794efa0e2437bf0872b2f203"
+  },
+  "TD_Project/rtl/display/promax_audio_waveform.v": {
+    "bytes": 8094,
+    "sha256": "b4b8f734ebe8e5899d0b3592380a14be5669c387e04085144a017c086b7dc1b8"
+  },
+  "TD_Project/rtl/display/promax_text_overlay.v": {
+    "bytes": 26907,
+    "sha256": "f68d3b901d18c588aef7a8cef765b4fc77a1e26f79086c9d68170af724f34eb7"
+  },
+  "TD_Project/rtl/display/scene_chinese_font.v": {
+    "bytes": 3421,
+    "sha256": "719c99da548ba56301e2d1191effd4173f2c8172dca55535f83bc898ec486f9f"
+  },
+  "TD_Project/rtl/display/seg7_status_panel.v": {
+    "bytes": 5165,
+    "sha256": "9dc24b7e6c2a86546baca461d83444154c56d6eaa921a2dcbc2ee39c23f3ab50"
+  },
+  "TD_Project/rtl/display/status_osd_overlay.v": {
+    "bytes": 4685,
+    "sha256": "7f63fe8e7326b948f3cd028f627ec57815d7d563848160ceee54875aeaa220f4"
+  },
+  "TD_Project/rtl/display/thumbnail_layout.v": {
+    "bytes": 2018,
+    "sha256": "9794e83b86297bf40a61769e9b01313bdb6a843fd53b4d4e1cf52d20ea61b173"
+  },
+  "TD_Project/rtl/display/timestamp_osd.v": {
+    "bytes": 9959,
+    "sha256": "698125dc426a97973a5835c1ea1430050f9cba0b866c60baa6aa66e46ef8d736"
+  },
+  "TD_Project/rtl/filesystem/bmp_nn_resampler.v": {
+    "bytes": 5359,
+    "sha256": "ce292c6658bb2f30e65d69bd1653217a6e0f7d91c3be7ac6ad925566e7929dd2"
+  },
+  "TD_Project/rtl/filesystem/fat32_bmp_read.v": {
+    "bytes": 16649,
+    "sha256": "d7d9f946b93673b4622a9e1034f7b469d7066459d54f5cc7934b72eed0ebbe80"
+  },
+  "TD_Project/rtl/filesystem/fat32_file_streamer.v": {
+    "bytes": 10196,
+    "sha256": "8d53de809fa805de2cd4c599c7ba749ce82ac130a55a24d67832a950e3f93971"
+  },
+  "TD_Project/rtl/filesystem/fat32_volume_scanner.v": {
+    "bytes": 21999,
+    "sha256": "c1d68a83e938262fdaf37f872bab08b3d2c28551275f0abb65db69b2f6714122"
+  },
+  "TD_Project/rtl/filesystem/sd_sector_adapter.v": {
+    "bytes": 2266,
+    "sha256": "b040ecec4a8aa5f94fd3de0482ba6e0251bf29dddb8b82219c268f783781a669"
+  },
+  "TD_Project/rtl/framebank/afifo_32_16_256.v": {
+    "bytes": 34119,
+    "sha256": "31ac18d826d1361a3cc05041c04712961ab1df4206a5b01e0c96cab18ffec273"
+  },
+  "TD_Project/rtl/framebank/fifo_prefetch_2.v": {
+    "bytes": 2299,
+    "sha256": "c5c088f4e195f1c193ef84f0ecb70e0dc83adf88736b31fcb58ffba036d3a76d"
+  },
+  "TD_Project/rtl/framebank/four_bank_preload.v": {
+    "bytes": 9740,
+    "sha256": "60db2885ab2011088028f4d264c6ccdad60d0b23f7ea061d4f5cf9864141f3af"
+  },
+  "TD_Project/rtl/framebank/media_frame_loader.v": {
+    "bytes": 11851,
+    "sha256": "1214f214fe35b5b4606d5f3a9487b4f834e0f852ee9e9636a867cd9aff9a5b6c"
+  },
+  "TD_Project/rtl/framebank/media_frame_reader.v": {
+    "bytes": 19976,
+    "sha256": "abf76472003ef5948e4269c16cb39bd3a34afe82705326ca38864e9af05f7fa8"
+  },
+  "TD_Project/rtl/framebank/media_player_control.v": {
+    "bytes": 7657,
+    "sha256": "a2268a453e79c4d7e8bcfbc7e63f7184523c0d1d7eb5a1a6c6a19dceb4055283"
+  },
+  "TD_Project/rtl/framebank/media_sdram_write_cdc.v": {
+    "bytes": 7941,
+    "sha256": "65a25f2c4519609841aa09445d63344352019fd600790a3759047ef47ef8c44b"
+  },
+  "TD_Project/rtl/framebank/media_video_pipeline.v": {
+    "bytes": 22177,
+    "sha256": "f48bd83d2ff113ba7e85240012e66cfee870cbb837bb110d78348bc24d6b11e9"
+  },
+  "TD_Project/rtl/framebank/pixel_crc_probe.v": {
+    "bytes": 2979,
+    "sha256": "90686f9f9d61de4ec748ffc61cf93ba502e6c8089d1753249580d3f8c073ab88"
+  },
+  "TD_Project/rtl/framebank/rgb_video_adapter.v": {
+    "bytes": 2684,
+    "sha256": "edcca4a11291e590e48ab292567dba3eb40b185f021e00112b8155db9bd19e68"
+  },
+  "TD_Project/rtl/framebank/video_fade_transition.v": {
+    "bytes": 8271,
+    "sha256": "e222f2d11ce6e9209235a42d4f8a7e21e2941584b83dfd3f3528ab1956a6b549"
+  },
+  "TD_Project/rtl/framebank/video_timing_ctrl.v": {
+    "bytes": 3080,
+    "sha256": "102ebea7ad166cb4f13e54ea704cbc9b9b6ec93c81838a5a964061483b12d71d"
+  },
+  "TD_Project/rtl/hdmi_audio/hdmi_audio_acr_packetizer.v": {
+    "bytes": 2198,
+    "sha256": "60ec0eb257212b85fbf393ac13ae9cb1c2196334eee2068264807f0e75479e00"
+  },
+  "TD_Project/rtl/hdmi_audio/hdmi_audio_infoframe_packetizer.v": {
+    "bytes": 1585,
+    "sha256": "843c0ee76bb51e9e68d9e5d4e15f29c8c0b3fd775c7aacb717469ecdf5cb7957"
+  },
+  "TD_Project/rtl/hdmi_audio/hdmi_audio_packet_scheduler.v": {
+    "bytes": 3501,
+    "sha256": "238b69515fdd738849aeada1be9c98b5a131b1576a258180207aa07c7c99951f"
+  },
+  "TD_Project/rtl/hdmi_audio/hdmi_audio_sample_packetizer.v": {
+    "bytes": 5457,
+    "sha256": "c82cd9f53fb1a04ae1a3db19eca2b5e9a3066f8d07ff1c8843e14e16c8befc39"
+  },
+  "TD_Project/rtl/hdmi_audio/hdmi_audio_symbol_core.v": {
+    "bytes": 6759,
+    "sha256": "8fe965ec999e3b73a025ef41d167b0f1d2d51eddb7b79458dad637798ca55f75"
+  },
+  "TD_Project/rtl/hdmi_audio/hdmi_bch8.v": {
+    "bytes": 951,
+    "sha256": "0aad5c9ad79c1ecf328e2ad6dbc75a8e06ce9aacfbac4023eca16c83e2240102"
+  },
+  "TD_Project/rtl/hdmi_audio/hdmi_data_island_mapper.v": {
+    "bytes": 1648,
+    "sha256": "711eca917fbcb9aa69153b0678411a155b70d05ecffb353f9a2eefa4e93ea542"
+  },
+  "TD_Project/rtl/hdmi_audio/hdmi_data_island_scheduler.v": {
+    "bytes": 6275,
+    "sha256": "3cbc82d784ee52c9a1ddf7420a7a1403429f47d99b8b4f11fe28a06911e9d1ef"
+  },
+  "TD_Project/rtl/hdmi_audio/hdmi_terc4_encoder.v": {
+    "bytes": 873,
+    "sha256": "03879709456f4857d861833fd2290b4469a03e0fecb2d3f830ff939912ee8daa"
+  },
+  "TD_Project/rtl/hdmi_audio/hdmi_tmds_channel_encoder.v": {
+    "bytes": 4085,
+    "sha256": "a2a8d1422f82f3cf826dcdfc6ed824745617ea358e220021ea48f9cda5d7ac3d"
+  },
+  "TD_Project/rtl/integration/hdmi_video_position.v": {
+    "bytes": 885,
+    "sha256": "7bc41ed54f2e1c048b8a243f8247cbc378e812d1ac4a978c8e9b513d05dc9a4a"
+  },
+  "TD_Project/rtl/integration/media_hdmi_audio_bridge.v": {
+    "bytes": 7933,
+    "sha256": "988f98e6dc452def7b7e38fe13f7d4a372a102b8e4e84fd24ee66bf9e2f36551"
+  },
+  "TD_Project/rtl/integration/media_status_cdc.v": {
+    "bytes": 1483,
+    "sha256": "936df40a0320075439f1a76d168aaa4270707ff2a04b3535be0a4050aa6c92e1"
+  },
+  "TD_Project/rtl/sd_card_bmp.v": {
+    "bytes": 17126,
+    "sha256": "5875f31622c66d3cce7cb7e809b1d5b1d446bd09dff6d979c46b3f33393736a2"
+  },
+  "TD_Project/rtl/top.v": {
+    "bytes": 21792,
+    "sha256": "d9bdb729503672e700605503747e7f043658f6430e537bfc23050f2f589637b8"
+  },
+  "TD_Project/rtl/uart/baud_tick.v": {
+    "bytes": 650,
+    "sha256": "02d2ed0f4a9a36f91f62df6220d1506537cb8d10bb37f9991d0823e9ba9a2c2d"
+  },
+  "TD_Project/rtl/uart/emergency_response_tx.v": {
+    "bytes": 3983,
+    "sha256": "693a6389390aae375659ca78390652f90866590b053e56040d9e481d3b21e62b"
+  },
+  "TD_Project/rtl/uart/pc_time_uart.v": {
+    "bytes": 3493,
+    "sha256": "812a5e4867f496fc4d4099a40764e4a4a13280520dddaef157e21781af5c7978"
+  },
+  "TD_Project/rtl/uart/subtitle_command.v": {
+    "bytes": 5522,
+    "sha256": "ecf4f5fb372f3a5434f2d129a552b09205538c9efd35d3365d76993b1524a31e"
+  },
+  "TD_Project/rtl/uart/subtitle_uart.v": {
+    "bytes": 3136,
+    "sha256": "95dda7f6e0dfaf2679482bf4ab9965238410e75370ec46cfcb7a7df57c571c4f"
+  },
+  "TD_Project/rtl/uart/uart_response_tx.v": {
+    "bytes": 3520,
+    "sha256": "fd3c582f43c1173d85290012cef8d20d0785914d70f168284593d7bfc8e57f7b"
+  },
+  "TD_Project/rtl/uart/uart_rx.v": {
+    "bytes": 3390,
+    "sha256": "81fdc7422942e4df18962996543b4f80416f9e087843f2ca94acbd2ffbba7c01"
+  },
+  "TD_Project/rtl/uart/uart_tx.v": {
+    "bytes": 1667,
+    "sha256": "d0df614487da5b635aa6c4200db2513cb862d18764c45520787588f42bb6c322"
+  },
+  "TD_Project/rtl/video_clip/clip_file_preloader.v": {
+    "bytes": 5200,
+    "sha256": "6e3e031712128442200f7676485e1a52068110de84e89a7145ccbacdfd16b99c"
+  },
+  "TD_Project/rtl/video_clip/clip_nn_expand.v": {
+    "bytes": 937,
+    "sha256": "0e5f40e3f2ef509c9b06b92eb8bb66bf09e36372416bf8166c02390a705b41d9"
+  },
+  "TD_Project/rtl/video_clip/clip_play_control.v": {
+    "bytes": 2671,
+    "sha256": "84145004da16b82d73e833e3b3402aa99ac0788a8ffaeddcef84084400068fae"
+  },
+  "TD_Project/rtl/video_clip/clip_voice_player.v": {
+    "bytes": 1649,
+    "sha256": "54325ac64a971e11c02f19f9af402939eeb56849b17c9b9077bfab4bc15af908"
+  },
+  "TD_Project/scripts/build_layout.tcl": {
+    "bytes": 7495,
+    "sha256": "856f274715b0cb8828d274324292e014e982ab868b649d4f4b8830994a564c64"
+  },
+  "TD_Project/scripts/make_clip_assets.py": {
+    "bytes": 2830,
+    "sha256": "0b9066f3354a80ac78db15906971a92d359e739283e6de1ebd32c1ce399d79b7"
+  },
+  "TD_Project/scripts/publish_loop.py": {
+    "bytes": 11600,
+    "sha256": "7a7baecac5d34d8bee1005d3ae3283ce9a7e28f334254022433de126be1159d5"
+  },
+  "TD_Project/scripts/retry_loop_layout.tcl": {
+    "bytes": 1661,
+    "sha256": "fb1d195cba9f193ad8f78f25c049d7082de84e26d9f0468aafa2291ddbeb1a93"
+  },
+  "TD_Project/scripts/run_build.py": {
+    "bytes": 1642,
+    "sha256": "fc978704d147e6a1cec7354b309b5b69da33dfaeadb3417b3b2f219aa4db15e7"
+  },
+  "TD_Project/scripts/run_loop_layout.py": {
+    "bytes": 1279,
+    "sha256": "b3ae867cadddfeaafb0273359aab6f83f6a35a49ee1ed7b9938086b5a3ce9012"
+  },
+  "TD_Project/scripts/verify_loop_scope.py": {
+    "bytes": 1979,
+    "sha256": "cba5fed58828cdd3f3c0096d0b1ed7fe07d86a5aec6fe3fe20f4a552d0a9df3d"
+  },
+  "TD_Project/sim/make_clip_fixtures.py": {
+    "bytes": 402,
+    "sha256": "af439236ac39835221732165cb303d774287656e55b317a5c602c5d24615beb9"
+  },
+  "TD_Project/sim/p21_parser_reference.v": {
+    "bytes": 14984,
+    "sha256": "101ee7983399180fb8b555e79d61b81eb5d7768fc6990d8b2d7aa7d35d2c85c8"
+  },
+  "TD_Project/sim/p36_parser_reference.v": {
+    "bytes": 16439,
+    "sha256": "e56d3138bb86b9b9503e76d810501a0b19272b2cd4336dbd4bca62b114faedd3"
+  },
+  "TD_Project/sim/p37_finish_mutant.v": {
+    "bytes": 17037,
+    "sha256": "462ca2bd034725b72209bf1a0f8cda26c059926795b5cb449581a69289ea084d"
+  },
+  "TD_Project/sim/picture_context_stage.vh": {
+    "bytes": 426,
+    "sha256": "7d049ea6c16e1511cf3b120caf687c62c6eb0aceffc5bdbd61944a9cc420120a"
+  },
+  "TD_Project/sim/reference_bmp_metadata.v": {
+    "bytes": 16901,
+    "sha256": "91e077715e504a19efd625f81575cdbffc004a47ef3beb7ddc84f70ef2ea3110"
+  },
+  "TD_Project/sim/reference_fat32_bmp_read.v": {
+    "bytes": 16126,
+    "sha256": "6e78af1fa9ae1a27f4ebb3aca3c419e20b1e00e39cb68385eca0324f93de5060"
+  },
+  "TD_Project/sim/reference_file_streamer.v": {
+    "bytes": 10195,
+    "sha256": "4e7cdc61e702c398d1f1697d9123bb47a2f138073e7d60c383e039218f8b4a60"
+  },
+  "TD_Project/sim/reference_player_control.v": {
+    "bytes": 7498,
+    "sha256": "ab698fc5c8958d1c9980fd2e0ee7094a098936fb41d792e00fa649e1902913e2"
+  },
+  "TD_Project/sim/reference_sd_sector_adapter.v": {
+    "bytes": 1755,
+    "sha256": "cd54d10d8982d380967c6ca96dde2be0fe26659fe78894b6f94292f540ef5f78"
+  },
+  "TD_Project/sim/run_adapter_narrow.do": {
+    "bytes": 331,
+    "sha256": "5105231475ffd33a37256509abd0a128d12554a720645e046e7c6759db818e7c"
+  },
+  "TD_Project/sim/run_bmp_metadata.do": {
+    "bytes": 282,
+    "sha256": "912b4d2c10aaab8d457c7c930be8f536a20504d39c4897090e79117e1438283d"
+  },
+  "TD_Project/sim/run_bmp_metadata.py": {
+    "bytes": 647,
+    "sha256": "159054baebd66379c13343152ab24229c5061f423e74dfecf19c61372ac9f5fe"
+  },
+  "TD_Project/sim/run_clip_boot.do": {
+    "bytes": 485,
+    "sha256": "2105422002a801d04e428742cd45b61cc7dedf4a66a6a68d6c19ce05c999b45a"
+  },
+  "TD_Project/sim/run_clip_boot.py": {
+    "bytes": 1362,
+    "sha256": "760c74eed19006ba3194467d22cd0aca29ee4a912478d2fcd6a154169eff7f36"
+  },
+  "TD_Project/sim/run_clip_control.do": {
+    "bytes": 314,
+    "sha256": "1403385eb9eb951f9ebaf15dbc1d2359a48cfd4dd7883119586071180958b8cd"
+  },
+  "TD_Project/sim/run_clip_control_collision.do": {
+    "bytes": 373,
+    "sha256": "bde78375d3d6ac3ffbc74f951d99e7f5e430bcb39f711d9091f98b30619d541e"
+  },
+  "TD_Project/sim/run_clip_overlay.do": {
+    "bytes": 270,
+    "sha256": "1c57c65f8c7a943f8bae469e862daf6b54470501a3283b6e7cc54729cfa2dfab"
+  },
+  "TD_Project/sim/run_clip_overlay.py": {
+    "bytes": 957,
+    "sha256": "8a8d4294153adba20289ec63d08c090af8a726cefde5ace94432127ec7504d27"
+  },
+  "TD_Project/sim/run_clip_pipeline.do": {
+    "bytes": 465,
+    "sha256": "bc261fa5a1c8fa6f4d8e1e1bf12e96a60e53c07c8caea24da1b5c1987410547c"
+  },
+  "TD_Project/sim/run_clip_pipeline.py": {
+    "bytes": 1393,
+    "sha256": "8c4d25f5dce033f431201ec565c3d125f20013f56db703869851a6b73b3d2db5"
+  },
+  "TD_Project/sim/run_clip_preload.do": {
+    "bytes": 314,
+    "sha256": "a7674b05ee6b0cbf43058faf36667e70cb5685b3bab69ca04e2463e83823697d"
+  },
+  "TD_Project/sim/run_clip_reader.do": {
+    "bytes": 391,
+    "sha256": "2d2a8b53ab6bdeee9bc60e5165a222f46cabe32d90c0eb6680a5cbae25078bfd"
+  },
+  "TD_Project/sim/run_clip_reader.py": {
+    "bytes": 1307,
+    "sha256": "5e7b3fd2fe9107a4acbc66e1cc6880305baa01e9c21473ee2506ed19edad4807"
+  },
+  "TD_Project/sim/run_clip_scaler.do": {
+    "bytes": 308,
+    "sha256": "d9cd197e592b9992c377f55b9915d328b18b21544cadd3839006652a983e8e90"
+  },
+  "TD_Project/sim/run_clip_units.py": {
+    "bytes": 1384,
+    "sha256": "a930cb7a857536c4e853d40d131477d1192899f8de2d52dcf91f9ae8c08494ca"
+  },
+  "TD_Project/sim/run_clip_voice.do": {
+    "bytes": 302,
+    "sha256": "f544787372eabfa42e917f0bd4c0e87cf56e2848ec05d64def2c24fb05288fe6"
+  },
+  "TD_Project/sim/run_file_cursor_equivalence.do": {
+    "bytes": 309,
+    "sha256": "a851b6031f964f5372c977f5586c47f579466a5d9fcfe6621b9d6af6b2521598"
+  },
+  "TD_Project/sim/run_file_cursor_equivalence.py": {
+    "bytes": 695,
+    "sha256": "44e0777765c7b82a3f533dd2a333bf70fc91f9106874f83da7fbe64b5719fd0a"
+  },
+  "TD_Project/sim/run_finish_final.py": {
+    "bytes": 828,
+    "sha256": "48622c0d7bcfa23122935381fa7a4d95b329ab4e4c8655a11ded76a3060acb02"
+  },
+  "TD_Project/sim/run_finish_negative.do": {
+    "bytes": 326,
+    "sha256": "b7845649a7dfee3d9eeff44f7611e2eb15b1d11e9988626dccf1c31cce92da92"
+  },
+  "TD_Project/sim/run_finish_negative.py": {
+    "bytes": 1766,
+    "sha256": "c0243cc54de6eba1b961186ab12ded923346fc1c94d9ce3c29ac9c80f1d9b5f4"
+  },
+  "TD_Project/sim/run_header_bounds.do": {
+    "bytes": 404,
+    "sha256": "905c5b826c3c43e174cdb540bae8ad656a8f11bd6c6975b9e9d6f99333956d14"
+  },
+  "TD_Project/sim/run_legacy_display.do": {
+    "bytes": 499,
+    "sha256": "f1b3345f147d17f005be6309dd443ae26287950c114cd8af3d9162715cb1e1ce"
+  },
+  "TD_Project/sim/run_legacy_display.py": {
+    "bytes": 1242,
+    "sha256": "7a96cd3a00d3098064fbb7096d8f48d5c736c6c81adcf3052c39d1c692499781"
+  },
+  "TD_Project/sim/run_p37_regressions.py": {
+    "bytes": 1396,
+    "sha256": "b70d0da7abbb580e05fb2e877bde793e926385b85230d4f2cedde85ae418a954"
+  },
+  "TD_Project/sim/run_p44_regressions.py": {
+    "bytes": 1417,
+    "sha256": "c8e7be91e44e62366a0766aa7d2064c7fcbe34566a974b598f6812adca428999"
+  },
+  "TD_Project/sim/run_parser_finish.do": {
+    "bytes": 363,
+    "sha256": "a563e9921dfedee5350954593e59267dc1494491eae451d02eb3c1dc7e4e2af7"
+  },
+  "TD_Project/sim/run_parser_timeouts.do": {
+    "bytes": 488,
+    "sha256": "61bb0ef3f11c1a4df2ba125e7c0a3ca5b24ed273a0b411cc567c7c4afc7171ef"
+  },
+  "TD_Project/sim/run_period_cached.py": {
+    "bytes": 1242,
+    "sha256": "debd8b66077039f76feba6e934682abe12077bda9415e814c3057496468455cd"
+  },
+  "TD_Project/sim/run_period_cached0.do": {
+    "bytes": 358,
+    "sha256": "6ce58a99462ccfa0a61bf1e6e2c2f009b075094ab89b18c238ee7dc1d4f97046"
+  },
+  "TD_Project/sim/run_period_cached1.do": {
+    "bytes": 358,
+    "sha256": "e06cef6be14cef1541eb88ee4cb1bae254004b908671310bcb561c191ceca651"
+  },
+  "TD_Project/sim/run_period_cached2.do": {
+    "bytes": 358,
+    "sha256": "1e587143f8ab9e0319d510f351ffce33b61775fa8cde49b0310ab041d17e0897"
+  },
+  "TD_Project/sim/run_period_cached3.do": {
+    "bytes": 358,
+    "sha256": "9284c19598a9fc3f83e543fe97dfe930d97d122e743a1b9944a1f0f873f8201f"
+  },
+  "TD_Project/sim/run_picture_key_context.do": {
+    "bytes": 482,
+    "sha256": "a999edd2821beb56d9d14b5b88d5b6ae8c2ce74750ef82d7ce571e66d50c25e0"
+  },
+  "TD_Project/sim/run_scale_preload.do": {
+    "bytes": 630,
+    "sha256": "79471ede9b2a904406e26acb4ae638d680080b5e52103e3d47f1883b32be46d4"
+  },
+  "TD_Project/sim/run_timing_regressions.py": {
+    "bytes": 1737,
+    "sha256": "8a311243db766c63eddb84962dfb14456051ecc38ab0e4a90177d552fe716b54"
+  },
+  "TD_Project/sim/run_voice_restart.do": {
+    "bytes": 289,
+    "sha256": "0ca8ba470efe6f9a4c89ef9dd21d7c8f0a2d7df0268e54190690d3af1bc35697"
+  },
+  "TD_Project/sim/run_voice_restart.py": {
+    "bytes": 663,
+    "sha256": "024e0785294e9a2e74c360b830b56a6a04990ad1984dfc06eb2714c8d08fec0a"
+  },
+  "TD_Project/sim/scale_card_model.sv": {
+    "bytes": 7287,
+    "sha256": "fff5978d21714bbc533d17c5a357554d54f588e22a58a01f9514178e5486fc14"
+  },
+  "TD_Project/sim/tb_adapter_equivalence.sv": {
+    "bytes": 3465,
+    "sha256": "a8db3476a2f8a4d0cf29ad282664db44c3bca3ab7a8dc6399e35608b1ce25fab"
+  },
+  "TD_Project/sim/tb_bmp_metadata.sv": {
+    "bytes": 4106,
+    "sha256": "5352f216b106fa2fab896fb3d526372b6435da3d9f5f851564ad14e6f9271e87"
+  },
+  "TD_Project/sim/tb_clip_boot.sv": {
+    "bytes": 6593,
+    "sha256": "5060a3cbe6acd3c0ddca930feae7975b2bfdcb2f5e760327ae6502bed1c7e7a8"
+  },
+  "TD_Project/sim/tb_clip_control.sv": {
+    "bytes": 2693,
+    "sha256": "4e109c021efbb0de59c29f70b043f8a215856200d8117b2b155c38736459598a"
+  },
+  "TD_Project/sim/tb_clip_overlay.sv": {
+    "bytes": 2553,
+    "sha256": "62756756dd9ea2fb8c4b1f892b36d90b89c79f95f8f3587d612717789279a63d"
+  },
+  "TD_Project/sim/tb_clip_pipeline.sv": {
+    "bytes": 5498,
+    "sha256": "939ba605cdca2b315fef7234ce24fe0eb1c31a96b7f2f2419b3e574c10a18882"
+  },
+  "TD_Project/sim/tb_clip_preload.sv": {
+    "bytes": 2918,
+    "sha256": "e83d0ae28dc70b7486854ffe2125d307df50a3c02ffdaf392c29032ae4b07101"
+  },
+  "TD_Project/sim/tb_clip_reader.sv": {
+    "bytes": 2635,
+    "sha256": "4d7a53edade513795a916f0978ac5e5428810cd08d6e47e845354eb7432a40ad"
+  },
+  "TD_Project/sim/tb_clip_scaler.sv": {
+    "bytes": 1269,
+    "sha256": "5f1687b36e07201e2af46f98bbf7e598b2355fab4a36070c83a399afe17d6a44"
+  },
+  "TD_Project/sim/tb_clip_voice.sv": {
+    "bytes": 1555,
+    "sha256": "093e838f6692a334260b010419a1a59f2b7443bae06972bc6fd7d7b717661ade"
+  },
+  "TD_Project/sim/tb_clip_voice_restart.sv": {
+    "bytes": 1295,
+    "sha256": "fb9b20106edf6d334853455485ce054f163df77ca1e20c5538a3952ce14dbe7d"
+  },
+  "TD_Project/sim/tb_file_stream_equivalence.sv": {
+    "bytes": 4560,
+    "sha256": "0903126b40f3b5c9c587e7dc567e99f9ff8ed45ce437520b549b64b4e6c53ed4"
+  },
+  "TD_Project/sim/tb_header_bounds.sv": {
+    "bytes": 7478,
+    "sha256": "b64d1c5878dc78827df58aa2c1fccd4c39ff2e164aba0a60ad585a6bd642bb41"
+  },
+  "TD_Project/sim/tb_legacy_display.sv": {
+    "bytes": 11263,
+    "sha256": "dba7a9c3b95a7c6d828e4da0fbad0ceca56f2a467991be0bd40c798d80b69166"
+  },
+  "TD_Project/sim/tb_parser_finish.sv": {
+    "bytes": 6470,
+    "sha256": "ffb826c3e90250e30b6f24f24cb475a8f7530dc7ee42bd4836981ec2dd251ded"
+  },
+  "TD_Project/sim/tb_parser_finish_mutant.sv": {
+    "bytes": 6593,
+    "sha256": "fc30868edb7b3c4031a0d5ecd5f9030e74c7b4367f67d3679d470c1f076c0a45"
+  },
+  "TD_Project/sim/tb_parser_timeouts.sv": {
+    "bytes": 4296,
+    "sha256": "d6caed8af7e0a4a4ce165fd32ff2f2244c565afa825eab57dca14975b5d092b6"
+  },
+  "TD_Project/sim/tb_period_cached.sv": {
+    "bytes": 3278,
+    "sha256": "3bd6519a0e45284635cf461fbc15495df381b790d88202837da8c7726ccebf79"
+  },
+  "TD_Project/sim/tb_picture_key_context.sv": {
+    "bytes": 4049,
+    "sha256": "3582b9dd37d13769181bd8165598cea32c8e7a5c5ede4db1f7d4c3c6c2051f39"
+  },
+  "TD_Project/sim/tb_scale_preload.sv": {
+    "bytes": 3918,
+    "sha256": "1d3b380e4cd497919fbd6c22eea03f4e7b9112f96d4734b17b34c62d82d69516"
+  },
+  "TD_Project/XiaoAnVision.al": {
+    "bytes": 39547,
+    "sha256": "b3c3d693bd1e068256ff57f36a441c582e9cbc48cea187b2217a390c0c3d953e"
+  },
+  "tools/Build.ps1": {
+    "bytes": 1563,
+    "sha256": "0cbe49dde0eab3b46bf9b7c78941773d90f2a99503d61a4b59203cebb28f20e5"
+  },
+  "tools/BuildNative.ps1": {
+    "bytes": 1681,
+    "sha256": "dad84ef12f1eeed98ed8a8e22852d61fed1f5d4828599d8a5fdeb7150be7544f"
+  },
+  "tools/native_finalize.tcl": {
+    "bytes": 1090,
+    "sha256": "359d8cae968e14e0855b7028de67d160f1eb9388784fb871f75a64ad1fb07838"
+  },
+  "tools/native_flow.tcl": {
+    "bytes": 430,
+    "sha256": "a2475258c32e0275cd5c3cd0fa9cd4bb5e9d089a9cd782be9e3527f4a3e24b3b"
+  },
+  "tools/Simulate.ps1": {
+    "bytes": 595,
+    "sha256": "2c60162f0cc307ea4028f9148904200c542fd1764c6951984e7f2b6b82a4ac6d"
+  }
+}

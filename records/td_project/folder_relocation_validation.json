@@ -1,0 +1,13 @@
+{
+  "project_entry": "TD_Project/XiaoAnVision.al",
+  "directory_change": "fpga/ -> TD_Project/; relative layout inside project preserved",
+  "hdl_inputs": 99,
+  "original_input_files": 203,
+  "all_original_project_inputs_byte_unchanged": true,
+  "native_al_file_byte_unchanged": true,
+  "frozen_bit_media_and_panel_byte_unchanged": true,
+  "td_elaboration_and_adc_sdc_load": "PASS",
+  "tool_script_syntax_check": "PASS",
+  "no_hardware_download_or_flash_write": true,
+  "full_build_evidence": "records/native_rebuild/; directory-only reorganization, no new implementation run"
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "file": "AUDIO.PCM",
+    "source": "normal.wav",
+    "rate_hz": 48000,
+    "channels": 1,
+    "format": "s16le raw/no header",
+    "edge_ms": 10,
+    "source_seconds": 157.14908333333332,
+    "loop_seconds": 157.152,
+    "bytes": 15086592,
+    "peak_limit": 16384,
+    "sha256": "4092fd7f786516de290be2048f92c651496d677772ca33a08f172c10886de09a"
+  },
+  {
+    "file": "ALERT.PCM",
+    "source": "alert.wav",
+    "rate_hz": 48000,
+    "channels": 1,
+    "format": "s16le raw/no header",
+    "edge_ms": 10,
+    "source_seconds": 30.0,
+    "loop_seconds": 30.0,
+    "bytes": 2880000,
+    "peak_limit": 16384,
+    "sha256": "b2a2a747494389d57350d6d1e0c3b46a071ed3f15a6b1cc9a6be543456d882f7"
+  }
+]

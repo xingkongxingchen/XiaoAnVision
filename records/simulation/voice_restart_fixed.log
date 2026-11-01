@@ -1,0 +1,21 @@
+# do run_voice_restart.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:50:31 on Oct 28,2026
+# vlog -sv -work work_voice_restart ../rtl/video_clip/clip_voice_player.v tb_clip_voice_restart.sv 
+# -- Compiling module clip_voice_player
+# -- Compiling module tb_clip_voice_restart
+# 
+# Top level modules:
+# 	tb_clip_voice_restart
+# End time: 22:50:31 on Oct 28,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c work_voice_restart.tb_clip_voice_restart 
+# Start time: 22:50:31 on Oct 28,2026
+# Loading sv_std.std
+# Loading work_voice_restart.tb_clip_voice_restart
+# Loading work_voice_restart.clip_voice_player
+# TB_PASS voice loop restart across all sample-tick phases; seven ordered clips without lowering active
+# ** Note: $finish    : tb_clip_voice_restart.sv(25)
+#    Time: 10550 ns  Iteration: 1  Instance: /tb_clip_voice_restart
+# End time: 22:50:32 on Oct 28,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

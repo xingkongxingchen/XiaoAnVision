@@ -1,0 +1,280 @@
+{
+  "created": "2026-10-28T23:41:08.267400",
+  "base": "P45 full feature release",
+  "build": {
+    "tag": "loop10r29",
+    "seed": 29,
+    "map_mode": "area_prior",
+    "exit_code": 0,
+    "seconds": 464.4946949481964,
+    "source_changed_during_build": [],
+    "parent_gate_tag": "loop10",
+    "gate_sha256": "99a0e6bf9ccae1de55526a699ee87b2236ef074927bba69c8442bbaaa589ede7"
+  },
+  "bit_sha256": "9cd93289ff80836c85ac8390bd81eed5641eff19164ff116f81952128ccd7f93",
+  "bit_bytes": 631952,
+  "setup_wns_ns": 0.122,
+  "setup_tns_ns": 0.0,
+  "hold_wns_ns": 0.025,
+  "hold_tns_ns": 0.0,
+  "resources": {
+    "lut": {
+      "used": 17600,
+      "total": 19600
+    },
+    "reg": {
+      "used": 9814,
+      "total": 19600
+    },
+    "bram": {
+      "used": 48,
+      "total": 64
+    },
+    "dsp": {
+      "used": 17,
+      "total": 29
+    },
+    "pll": {
+      "used": 2,
+      "total": 4
+    }
+  },
+  "scope": {
+    "baseline_release_files_reverified": 226,
+    "frozen_p44_records_reverified": 197,
+    "changed_rtl": [
+      "rtl/filesystem/fat32_bmp_read.v",
+      "rtl/filesystem/fat32_file_streamer.v",
+      "rtl/framebank/media_player_control.v",
+      "rtl/framebank/media_video_pipeline.v",
+      "rtl/top.v",
+      "rtl/video_clip/clip_play_control.v",
+      "rtl/video_clip/clip_voice_player.v"
+    ],
+    "clocks_constraints_build_list_unchanged": true,
+    "protected_sd_sdram_fifo_timing_hdmi_unchanged": true,
+    "asset_unchanged": true,
+    "runtime_C2_crc_enabled": true,
+    "fat_cluster_advance_added_cycles": 1,
+    "invalid_bmp_metadata_error_added_cycles": 4,
+    "baseline_bit_sha256": "4787b61046e43fca2faf71a6a59e32e659cf9019c89aac7df458b9ea7d483279",
+    "asset_sha256": "9c4521f97c419fe75e9a6ee36e268a4120e3223fa8ec12acc1b90236be3c24e5"
+  },
+  "tests": {
+    "units": [
+      {
+        "case": "control",
+        "pass": true,
+        "exit_code": 0,
+        "summary": [
+          "# TB_PASS SW1 high: three gap-free 20-frame loops with frame-atomic addresses/duration and voice restart; low cancellation, debounce, deferred boot, blocked, emergency resume, readiness loss and reset"
+        ]
+      },
+      {
+        "case": "control_collision",
+        "pass": true,
+        "exit_code": 0,
+        "summary": [
+          "# TB_PASS SW1 high: three gap-free 20-frame loops with frame-atomic addresses/duration and voice restart; low cancellation, debounce, deferred boot, blocked, emergency resume, readiness loss and reset"
+        ]
+      },
+      {
+        "case": "scaler",
+        "pass": true,
+        "exit_code": 0,
+        "summary": [
+          "# TB_PASS 160x120 -> 640x480: all 307200 pixels, 19200 FIFO consumes, synchronous line RAM and fourfold repetition"
+        ]
+      },
+      {
+        "case": "voice",
+        "pass": true,
+        "exit_code": 0,
+        "summary": [
+          "# TB_PASS preloaded voice RAM: two continuous-active voice cycles, 192000 PCM outputs match 16000 signed bytes x6; loop restart, backpressure and cancel"
+        ]
+      },
+      {
+        "case": "preload",
+        "pass": true,
+        "exit_code": 0,
+        "summary": [
+          "# TB_PASS fragmented clip FAT preload, exact memory bounds/order; header/CRC/padding/early-EOF/sector-error/size rejection"
+        ]
+      }
+    ],
+    "pipeline": {
+      "pass": true,
+      "exit_code": 0,
+      "seconds": 614.9276592731476,
+      "summary": [
+        "# TB_PASS clip pipeline: two continuous loops of first 3 actual asset frames, 18 full output rasters, per-pixel scale checks; normal/alarm restoration, CRC, FIFO and 128-word bursts"
+      ]
+    },
+    "voice_restart_all_tick_phases": {
+      "pass": true,
+      "exit_code": 0,
+      "summary": [
+        "# TB_PASS voice loop restart across all sample-tick phases; seven ordered clips without lowering active"
+      ]
+    },
+    "file_cursor_equivalence": {
+      "pass": true,
+      "exit_code": 0,
+      "summary": [
+        "# TB_PASS file cursor transaction equivalence: 12 cases 9532 bytes; fragmented/SPC/partial/zero files, range/self-loop/EOF/visited/sector errors; one added clock per valid cluster advance"
+      ]
+    },
+    "bmp_metadata": {
+      "pass": true,
+      "exit_code": 0,
+      "summary": [
+        "# TB_PASS captured BMP metadata: 24 cases; valid header address/timing unchanged; invalid metadata requests no sector and reports same errors four clocks later; ID/resource errors retain priority"
+      ]
+    },
+    "parser_regressions": [
+      {
+        "case": "finish0",
+        "pass": true,
+        "exit_code": 0,
+        "summary": [
+          "# TB_PASS P37 parser completion SCALE=0 cases=8 exact pixel sequence, original pre-edge verdict, +1 completion clock, errors and reset; pixel_checks=55"
+        ]
+      },
+      {
+        "case": "finish1",
+        "pass": true,
+        "exit_code": 0,
+        "summary": [
+          "# TB_PASS P37 parser completion SCALE=1 cases=7 exact pixel sequence, original pre-edge verdict, +1 completion clock, errors and reset; pixel_checks=48"
+        ]
+      },
+      {
+        "case": "header0",
+        "pass": true,
+        "exit_code": 0,
+        "summary": [
+          "# TB_PASS header bounds SCALE=0: 177 cases, accepted94 rejected81; cycle-equivalent to P21"
+        ]
+      },
+      {
+        "case": "header1",
+        "pass": true,
+        "exit_code": 0,
+        "summary": [
+          "# TB_PASS header bounds SCALE=1: 177 cases, accepted116 rejected59; cycle-equivalent to P21"
+        ]
+      },
+      {
+        "case": "timer0",
+        "pass": true,
+        "exit_code": 0,
+        "summary": [
+          "# TB_PASS reduced timer cycle-equivalent to 32-bit reference: ACK high/low, sector stall, 16-cycle SD reset, reinit success/deadline, short sector LIMIT=700 REINIT=1400"
+        ]
+      },
+      {
+        "case": "timer1",
+        "pass": true,
+        "exit_code": 0,
+        "summary": [
+          "# TB_PASS reduced timer cycle-equivalent to 32-bit reference: ACK high/low, sector stall, 16-cycle SD reset, reinit success/deadline, short sector LIMIT=1024 REINIT=1024"
+        ]
+      },
+      {
+        "case": "preload0",
+        "pass": true,
+        "exit_code": 0,
+        "summary": [
+          "# TB_PASS scale FAT32/preload/CDC integration FULL=          0 and dimension rejection"
+        ]
+      },
+      {
+        "case": "preload1",
+        "pass": true,
+        "exit_code": 0,
+        "summary": [
+          "# TB_PASS scale FAT32/preload/CDC integration FULL=          0 and dimension rejection"
+        ]
+      }
+    ],
+    "period_cached": [
+      {
+        "case": 0,
+        "pass": true,
+        "summary": [
+          "# TB_PASS cached period threshold cycle-equivalent: DIRECT0 EMERGENCY0 DEFAULT5 checks50351; randomized valid/invalid periods, expiration, manual controls, mailbox, pause, emergency and reset"
+        ]
+      },
+      {
+        "case": 1,
+        "pass": true,
+        "summary": [
+          "# TB_PASS cached period threshold cycle-equivalent: DIRECT1 EMERGENCY0 DEFAULT5 checks50351; randomized valid/invalid periods, expiration, manual controls, mailbox, pause, emergency and reset"
+        ]
+      },
+      {
+        "case": 2,
+        "pass": true,
+        "summary": [
+          "# TB_PASS cached period threshold cycle-equivalent: DIRECT1 EMERGENCY1 DEFAULT5 checks50351; randomized valid/invalid periods, expiration, manual controls, mailbox, pause, emergency and reset"
+        ]
+      },
+      {
+        "case": 3,
+        "pass": true,
+        "summary": [
+          "# TB_PASS cached period threshold cycle-equivalent: DIRECT1 EMERGENCY1 DEFAULT0 checks50351; randomized valid/invalid periods, expiration, manual controls, mailbox, pause, emergency and reset"
+        ]
+      }
+    ],
+    "full_boot": {
+      "pass": true,
+      "exit_code": 0,
+      "seconds": 83.78570866584778,
+      "summary": [
+        "# CLIP_BOOT_PASS case0: writes384000 ready1 error00 sectors3479, both audio streams resumed with 16 ordered PCM samples",
+        "# CLIP_BOOT_PASS case1: writes0 ready0 error00 sectors66, both audio streams resumed with 16 ordered PCM samples",
+        "# CLIP_BOOT_PASS case2: writes0 ready0 errord4 sectors3479, both audio streams resumed with 16 ordered PCM samples",
+        "# CLIP_BOOT_PASS case3: writes384000 ready0 errord5 sectors3479, both audio streams resumed with 16 ordered PCM samples",
+        "# CLIP_BOOT_PASS case4: writes896 ready0 errord2 sectors74, both audio streams resumed with 16 ordered PCM samples",
+        "# CLIP_BOOT_PASS case5: writes0 ready0 errord1 sectors66, both audio streams resumed with 16 ordered PCM samples",
+        "# TB_PASS clip boot integration: actual asset, fragmented FAT32, scanner/adapter/CDC, exact 384000 writes and drain; optional missing, CRC and partial-burst abort fallback"
+      ]
+    }
+  },
+  "test_provenance": {
+    "inherited_filesystem_boot_and_clip_units": {
+      "root": "G:\\qiansai_gongcheng\\huigui_paicha\\detail_p47_clip_loop_timing2",
+      "all_relevant_rtl_identical": true,
+      "changed_controller_not_instantiated_in_inherited_tests": true,
+      "files": {
+        "bmp_metadata_results.json": "57feb819d2b32de3ae4d926e811e55c0709b771dd30741f257780647d30408f7",
+        "clip_boot_results.json": "9b32620acaee18b30c0cd95a2e6d25a5ab4b20d246d10904f5e58aaf3917e700",
+        "clip_unit_results.json": "d4fc945bf78d98e71c09dfe71e2d5a97a093cf80571af43f4552ff4a034117b7",
+        "file_cursor_equivalence_results.json": "63bb72121e633eb7e4d113521ce54a8e5239f044e06307ac4ae131adea85a087",
+        "voice_restart_results.json": "a11c5142487a6424cbe91570ebb44036021a8a3f6720ac19c6a65150e956a416"
+      }
+    },
+    "fresh_tests": [
+      "period_cached_results: four cases, 201404 exact cycles",
+      "clip_pipeline_results: full raster with current media_player_control"
+    ]
+  },
+  "hardware_tested": false,
+  "flash_modified": false,
+  "actual_tf_card_modified": false,
+  "behavior": [
+    "SW1 high loops until debounced low",
+    "No active-video gap between loops",
+    "Voice restarts every video loop",
+    "Emergency takes priority; held SW1 resumes from clip start after release",
+    "Full P45 UI, clocks and media retained"
+  ],
+  "limits": [
+    "Existing horizontal-line issue deferred by user, no fix claimed",
+    "Board acceptance pending",
+    "Integration uses three actual clip frames and accelerated dwell; unit control covers twenty-frame cycles",
+    "Loop duration is nominal two seconds plus at most one video refresh for boundary commit"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "pass": true,
+  "exit_code": 0,
+  "summary": [
+    "# TB_PASS captured BMP metadata: 24 cases; valid header address/timing unchanged; invalid metadata requests no sector and reports same errors four clocks later; ID/resource errors retain priority"
+  ]
+}

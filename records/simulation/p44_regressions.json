@@ -1,0 +1,66 @@
+[
+  {
+    "case": "finish0",
+    "pass": true,
+    "exit_code": 0,
+    "summary": [
+      "# TB_PASS P37 parser completion SCALE=0 cases=8 exact pixel sequence, original pre-edge verdict, +1 completion clock, errors and reset; pixel_checks=55"
+    ]
+  },
+  {
+    "case": "finish1",
+    "pass": true,
+    "exit_code": 0,
+    "summary": [
+      "# TB_PASS P37 parser completion SCALE=1 cases=7 exact pixel sequence, original pre-edge verdict, +1 completion clock, errors and reset; pixel_checks=48"
+    ]
+  },
+  {
+    "case": "header0",
+    "pass": true,
+    "exit_code": 0,
+    "summary": [
+      "# TB_PASS header bounds SCALE=0: 177 cases, accepted94 rejected81; cycle-equivalent to P21"
+    ]
+  },
+  {
+    "case": "header1",
+    "pass": true,
+    "exit_code": 0,
+    "summary": [
+      "# TB_PASS header bounds SCALE=1: 177 cases, accepted116 rejected59; cycle-equivalent to P21"
+    ]
+  },
+  {
+    "case": "timer0",
+    "pass": true,
+    "exit_code": 0,
+    "summary": [
+      "# TB_PASS reduced timer cycle-equivalent to 32-bit reference: ACK high/low, sector stall, 16-cycle SD reset, reinit success/deadline, short sector LIMIT=700 REINIT=1400"
+    ]
+  },
+  {
+    "case": "timer1",
+    "pass": true,
+    "exit_code": 0,
+    "summary": [
+      "# TB_PASS reduced timer cycle-equivalent to 32-bit reference: ACK high/low, sector stall, 16-cycle SD reset, reinit success/deadline, short sector LIMIT=1024 REINIT=1024"
+    ]
+  },
+  {
+    "case": "preload0",
+    "pass": true,
+    "exit_code": 0,
+    "summary": [
+      "# TB_PASS scale FAT32/preload/CDC integration FULL=          0 and dimension rejection"
+    ]
+  },
+  {
+    "case": "preload1",
+    "pass": true,
+    "exit_code": 0,
+    "summary": [
+      "# TB_PASS scale FAT32/preload/CDC integration FULL=          0 and dimension rejection"
+    ]
+  }
+]

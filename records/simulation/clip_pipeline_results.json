@@ -1,0 +1,8 @@
+{
+  "pass": true,
+  "exit_code": 0,
+  "seconds": 614.9276592731476,
+  "summary": [
+    "# TB_PASS clip pipeline: two continuous loops of first 3 actual asset frames, 18 full output rasters, per-pixel scale checks; normal/alarm restoration, CRC, FIFO and 128-word bursts"
+  ]
+}

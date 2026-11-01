@@ -1,0 +1,20 @@
+{
+  "hdl_inputs": 99,
+  "constraints": 2,
+  "relative_paths": true,
+  "relocated_native_elaboration_and_constraints": "PASS",
+  "gui_open_and_top_recognition": "PASS",
+  "bit_and_rtl_unchanged": true,
+  "full_place_route_rebuild": true,
+  "al_sha256": "b3c3d693bd1e068256ff57f36a441c582e9cbc48cea187b2217a390c0c3d953e",
+  "explicit_post_route_hold_fix_required": true,
+  "gui_default_flow_alone_timing_pass": false,
+  "full_rebuild_timing_pass": true,
+  "rebuild_timing_ns": {
+    "SWNS_ns": 0.122,
+    "STNS_ns": 0.0,
+    "HWNS_ns": 0.025,
+    "HTNS_ns": 0.0
+  },
+  "rebuilt_bit_same_as_frozen_file": false
+}

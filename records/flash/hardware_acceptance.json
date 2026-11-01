@@ -1,0 +1,14 @@
+{
+  "client_date": "2026-10-29",
+  "source": "User reply to cold-boot check: 断电自启、声音及 SW1 循环/退出均正常",
+  "all_power_removed_per_question": true,
+  "no_redownload_after_power_on": true,
+  "pictures_and_sound_recovered": true,
+  "sw1_loop_and_exit_normal": true,
+  "cold_boot_confirmed": true,
+  "measured_cold_boot_count": null,
+  "measured_duration": null,
+  "quantitative_statistics_invented": false,
+  "initial_flash_record": "FLASH_RESULT.json",
+  "initial_flash_record_sha256": "9ed396696f47ea6f2c6cb268ba7031bc414ddaa7831fc05125a4b5d85d8eee20"
+}

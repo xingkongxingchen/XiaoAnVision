@@ -1,0 +1,21 @@
+Location         : G:\qiansai_gongcheng\release\al_full_rebuild_20261101\run02\XiaoAnVision\fpga\XiaoAnVision_Runs\phy_1
+Running with     : Tang Dynasty v6.2.168116
+                   Copyright (c) 2012-2025 Anlogic Inc.
+Top Model        : top
+Device           : EG4S20BG256
+Speed            : NA
+
+Timing Mode      : manhattan
+Setup            : WNS  1930ps  TNS        0ps  NUM_FEPS     0
+Hold             : WNS   -20ps  TNS      -53ps  NUM_FEPS     4
+
+Flow Statistics  :
+---------------------------------------------------------------------------------------------------
+     command     |  #calls  |  wall time   |  cpu time(s)  |  used memory(mb)  |  peak memory(mb)  
+---------------------------------------------------------------------------------------------------
+      place      |    1     |  1m9s(100%)  |   100(100%)   |       1033        |       1033        
+    import_db    |    1     |    0s(0%)    |     0(0%)     |        312        |        312        
+  import_device  |    1     |    0s(0%)    |     0(0%)     |        84         |        84         
+---------------------------------------------------------------------------------------------------
+      total      |    3     |     1m9s     |      100      |       1033        |       1033        
+---------------------------------------------------------------------------------------------------

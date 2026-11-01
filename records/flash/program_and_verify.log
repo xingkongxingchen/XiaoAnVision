@@ -1,0 +1,60 @@
+P47_FROZEN_BIT_SOURCE_AND_PREVIOUS_BACKUP_VERIFIED
+RUN-1002 : start command "read_device_id -cable 0"
+EG4S20BG256
+RUN-1003 : finish command "read_device_id -cable 0" in  0.039323s wall, 0.000000s user + 0.000000s system = 0.000000s CPU (n/a%)
+
+RUN-1004 : used memory is 27 MB, reserved memory is 10 MB, peak memory is 27 MB
+USER_AUTHORIZED: final checks passed, replace W25Q16 configuration with frozen P47.
+PROGRAM_BEGIN: PROGRAM_FLASH, W25Q16, 16 Mbits, single image.
+RUN-1002 : start command "download -bit G:/qiansai_gongcheng/release/flash_program_p47_20261029/campus_clip_loop_full.bit -mode program_spi -v -spd 7 -cable 0 -chip EG4S20BG256 -flashsize 16"
+PRG-2014 : Chip validation success: EG4S20BG256
+PRG-1001 : SPI Flash ID is:  ef
+RUN-1002 : start command "bit_to_vec -chip EG4S20BG256 -m program_spi -freq 5.000000 -bit G:/qiansai_gongcheng/release/flash_program_p47_20261029/campus_clip_loop_full.bit"
+RUN-1003 : finish command "bit_to_vec -chip EG4S20BG256 -m program_spi -freq 5.000000 -bit G:/qiansai_gongcheng/release/flash_program_p47_20261029/campus_clip_loop_full.bit" in  0.956102s wall, 0.812500s user + 0.125000s system = 0.937500s CPU (98.1%)
+
+RUN-1004 : used memory is 237 MB, reserved memory is 230 MB, peak memory is 246 MB
+RUN-1002 : start command "program_spi -cable 0 -spd 7 -chip EG4S20BG256"
+RUN-1003 : finish command "program_spi -cable 0 -spd 7 -chip EG4S20BG256" in  72.614007s wall, 2.937500s user + 0.843750s system = 3.781250s CPU (5.2%)
+
+RUN-1004 : used memory is 135 MB, reserved memory is 231 MB, peak memory is 246 MB
+RUN-1002 : start command "bit_to_vec -chip EG4S20BG256 -m verify_spi -freq 5.000000 -bit G:/qiansai_gongcheng/release/flash_program_p47_20261029/campus_clip_loop_full.bit"
+RUN-1003 : finish command "bit_to_vec -chip EG4S20BG256 -m verify_spi -freq 5.000000 -bit G:/qiansai_gongcheng/release/flash_program_p47_20261029/campus_clip_loop_full.bit" in  0.941247s wall, 0.609375s user + 0.171875s system = 0.781250s CPU (83.0%)
+
+RUN-1004 : used memory is 138 MB, reserved memory is 152 MB, peak memory is 246 MB
+RUN-1002 : start command "program -cable 0 -spd 7"
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+RUN-1003 : finish command "program -cable 0 -spd 7" in  8.700575s wall, 0.484375s user + 0.187500s system = 0.671875s CPU (7.7%)
+
+RUN-1004 : used memory is 166 MB, reserved memory is 181 MB, peak memory is 246 MB
+RUN-1003 : finish command "download -bit G:/qiansai_gongcheng/release/flash_program_p47_20261029/campus_clip_loop_full.bit -mode program_spi -v -spd 7 -cable 0 -chip EG4S20BG256 -flashsize 16" in  86.227822s wall, 5.984375s user + 1.593750s system = 7.578125s CPU (8.8%)
+
+RUN-1004 : used memory is 166 MB, reserved memory is 181 MB, peak memory is 246 MB
+PROGRAM_RETURN code=0 result=
+INDEPENDENT_VERIFY_BEGIN: VERIFY_FLASH, same P47 image and capacity.
+RUN-1002 : start command "download -bit G:/qiansai_gongcheng/release/flash_program_p47_20261029/campus_clip_loop_full.bit -mode verify_spi -spd 7 -cable 0 -chip EG4S20BG256 -flashsize 16"
+PRG-2014 : Chip validation success: EG4S20BG256
+***************************************************
+PRG-1001 : SPI Flash ID is:  ef
+RUN-1002 : start command "bit_to_vec -chip EG4S20BG256 -m verify_spi -freq 5.000000 -bit G:/qiansai_gongcheng/release/flash_program_p47_20261029/campus_clip_loop_full.bit"
+RUN-1003 : finish command "bit_to_vec -chip EG4S20BG256 -m verify_spi -freq 5.000000 -bit G:/qiansai_gongcheng/release/flash_program_p47_20261029/campus_clip_loop_full.bit" in  1.177021s wall, 0.843750s user + 0.156250s system = 1.000000s CPU (85.0%)
+
+RUN-1004 : used memory is 140 MB, reserved memory is 153 MB, peak memory is 246 MB
+RUN-1002 : start command "program -cable 0 -spd 7 -p"
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+RUN-1003 : finish command "program -cable 0 -spd 7 -p" in  8.840668s wall, 0.328125s user + 0.171875s system = 0.500000s CPU (5.7%)
+
+RUN-1004 : used memory is 167 MB, reserved memory is 182 MB, peak memory is 246 MB
+RUN-1003 : finish command "download -bit G:/qiansai_gongcheng/release/flash_program_p47_20261029/campus_clip_loop_full.bit -mode verify_spi -spd 7 -cable 0 -chip EG4S20BG256 -flashsize 16" in  11.664194s wall, 1.250000s user + 0.328125s system = 1.578125s CPU (13.5%)
+
+RUN-1004 : used memory is 167 MB, reserved memory is 182 MB, peak memory is 246 MB
+VERIFY_RETURN code=0 result=
+PROGRAM_AND_VERIFY_COMPLETED: P47 cold boot remains pending.

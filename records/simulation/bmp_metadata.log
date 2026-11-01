@@ -1,0 +1,30 @@
+# do run_bmp_metadata.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:50:27 on Oct 28,2026
+# vlog -sv -work work_bmp_meta ../rtl/filesystem/bmp_nn_resampler.v ../rtl/filesystem/fat32_bmp_read.v ../rtl/filesystem/fat32_file_streamer.v ../rtl/filesystem/fat32_volume_scanner.v ../rtl/filesystem/sd_sector_adapter.v reference_bmp_metadata.v tb_bmp_metadata.sv 
+# -- Compiling module bmp_nn_resampler
+# -- Compiling module fat32_bmp_read
+# -- Compiling module fat32_file_streamer
+# -- Compiling module fat32_volume_scanner
+# -- Compiling module sd_sector_adapter
+# -- Compiling module reference_bmp_metadata
+# -- Compiling module tb_bmp_metadata
+# 
+# Top level modules:
+# 	tb_bmp_metadata
+# End time: 22:50:27 on Oct 28,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c work_bmp_meta.tb_bmp_metadata 
+# Start time: 22:50:27 on Oct 28,2026
+# Loading sv_std.std
+# Loading work_bmp_meta.tb_bmp_metadata
+# Loading work_bmp_meta.reference_bmp_metadata
+# Loading work_bmp_meta.sd_sector_adapter
+# Loading work_bmp_meta.fat32_volume_scanner
+# Loading work_bmp_meta.fat32_file_streamer
+# Loading work_bmp_meta.fat32_bmp_read
+# TB_PASS captured BMP metadata: 24 cases; valid header address/timing unchanged; invalid metadata requests no sector and reports same errors four clocks later; ID/resource errors retain priority
+# ** Note: $finish    : tb_bmp_metadata.sv(67)
+#    Time: 9360 ns  Iteration: 1  Instance: /tb_bmp_metadata
+# End time: 22:50:28 on Oct 28,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

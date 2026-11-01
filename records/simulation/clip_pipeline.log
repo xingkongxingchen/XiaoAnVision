@@ -1,0 +1,133 @@
+# do run_clip_pipeline.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:06:11 on Oct 28,2026
+# vlog -sv -work work_clip_pipeline F:/qiansai_anlu/sim_release/common/al_map_lut.v ../rtl/framebank/afifo_32_16_256.v ../rtl/framebank/fifo_prefetch_2.v ../rtl/framebank/four_bank_preload.v ../rtl/framebank/media_frame_loader.v ../rtl/framebank/media_frame_reader.v ../rtl/framebank/media_player_control.v ../rtl/framebank/media_sdram_write_cdc.v ../rtl/framebank/media_video_pipeline.v ../rtl/framebank/pixel_crc_probe.v ../rtl/framebank/rgb_video_adapter.v ../rtl/framebank/video_fade_transition.v ../rtl/framebank/video_timing_ctrl.v ../rtl/control/dual_key_chord_router.v ../rtl/control/dual_key_long_hold_guard.v ../rtl/control/emergency_control.v ../rtl/control/emergency_scene_control.v ../rtl/control/k3_hold_control.v ../rtl/control/panel_control_cdc.v ../rtl/control/period_setting_control.v ../rtl/control/picture_adjust_control.v ../rtl/control/reset_sync.v ../rtl/control/slideshow_key_router.v ../rtl/control/slideshow_policy.v ../rtl/control/startup_reset.v ../rtl/control/sync_2ff.v ../rtl/control/thumbnail_controller.v ../rtl/control/wall_clock.v ../rtl/control/waveform_switch_control.v ../rtl/video_clip/clip_file_preloader.v ../rtl/video_clip/clip_nn_expand.v ../rtl/video_clip/clip_play_control.v ../rtl/video_clip/clip_voice_player.v ../rtl/display/thumbnail_layout.v ../rtl/display/brightness_contrast_adjust.v tb_clip_pipeline.sv 
+# -- Compiling module AL_MAP_LUT1
+# -- Compiling module AL_MAP_LUT2
+# -- Compiling module AL_MAP_LUT3
+# -- Compiling module AL_MAP_LUT4
+# -- Compiling module AL_MAP_LUT5
+# -- Compiling module AL_MAP_LUT6
+# -- Compiling module AL_MAP_LUT6P
+# -- Compiling module AL_MAP_LUT6X
+# -- Compiling module AL_MAP_LLMUX
+# -- Compiling module AL_MAP_F7MUX
+# -- Compiling module AL_MAP_F8MUX
+# -- Compiling module AL_MAP_CARRY4
+# -- Compiling module rfifo_32_32_512
+# -- Compiling module fifo_cross_domain_addr_process_al_rfifo_32_32_512
+# -- Compiling module ram_infer_rfifo_32_32_512
+# -- Compiling module fifo_prefetch_2
+# -- Compiling module four_bank_preload
+# -- Compiling module media_frame_loader
+# -- Compiling module media_frame_reader
+# -- Compiling module media_player_control
+# -- Compiling module media_sdram_write_cdc
+# -- Compiling module async_command_fifo
+# -- Compiling module media_video_pipeline
+# -- Compiling module pixel_crc_probe
+# -- Compiling module rgb_video_adapter
+# -- Compiling module video_fade_transition
+# -- Compiling module video_timing_ctrl
+# -- Compiling module dual_key_chord_router
+# -- Compiling module dual_key_long_hold_guard
+# -- Compiling module emergency_control
+# -- Compiling module emergency_scene_control
+# -- Compiling module k3_hold_control
+# -- Compiling module panel_control_cdc
+# -- Compiling module period_setting_control
+# -- Compiling module picture_adjust_control
+# -- Compiling module reset_sync
+# -- Compiling module slideshow_key_router
+# -- Compiling module slideshow_policy
+# -- Compiling module startup_reset
+# -- Compiling module sync_2ff
+# -- Compiling module thumbnail_controller
+# -- Compiling module wall_clock
+# -- Compiling module waveform_switch_control
+# -- Compiling module clip_file_preloader
+# -- Compiling module clip_nn_expand
+# -- Compiling module clip_play_control
+# -- Compiling module clip_voice_player
+# -- Compiling module thumbnail_layout
+# -- Compiling module brightness_contrast_adjust
+# -- Compiling module tb_clip_pipeline
+# 
+# Top level modules:
+# 	AL_MAP_LUT1
+# 	AL_MAP_LUT2
+# 	AL_MAP_LUT3
+# 	AL_MAP_LUT6
+# 	AL_MAP_LUT6P
+# 	AL_MAP_LUT6X
+# 	AL_MAP_LLMUX
+# 	AL_MAP_F7MUX
+# 	AL_MAP_F8MUX
+# 	AL_MAP_CARRY4
+# 	four_bank_preload
+# 	emergency_control
+# 	k3_hold_control
+# 	panel_control_cdc
+# 	period_setting_control
+# 	picture_adjust_control
+# 	slideshow_key_router
+# 	slideshow_policy
+# 	startup_reset
+# 	wall_clock
+# 	waveform_switch_control
+# 	clip_file_preloader
+# 	clip_voice_player
+# 	tb_clip_pipeline
+# End time: 23:06:11 on Oct 28,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c work_clip_pipeline.tb_clip_pipeline 
+# Start time: 23:06:12 on Oct 28,2026
+# Loading sv_std.std
+# Loading work_clip_pipeline.tb_clip_pipeline
+# Loading work_clip_pipeline.media_video_pipeline
+# Loading work_clip_pipeline.sync_2ff
+# Loading work_clip_pipeline.video_timing_ctrl
+# Loading work_clip_pipeline.video_fade_transition
+# Loading work_clip_pipeline.media_player_control
+# Loading work_clip_pipeline.media_frame_reader
+# Loading work_clip_pipeline.rfifo_32_32_512
+# Loading work_clip_pipeline.fifo_cross_domain_addr_process_al_rfifo_32_32_512
+# Loading work_clip_pipeline.ram_infer_rfifo_32_32_512
+# Loading work_clip_pipeline.fifo_prefetch_2
+# Loading work_clip_pipeline.rgb_video_adapter
+# Loading work_clip_pipeline.emergency_scene_control
+# Loading work_clip_pipeline.thumbnail_layout
+# Loading work_clip_pipeline.clip_play_control
+# Loading work_clip_pipeline.clip_nn_expand
+# Loading work_clip_pipeline.brightness_contrast_adjust
+# Loading work_clip_pipeline.pixel_crc_probe
+# ** Warning: (vsim-3017) tb_clip_pipeline.sv(10): [TFMPC] - Too few port connections. Expected 57, found 56.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_clip_pipeline/dut File: ../rtl/framebank/media_video_pipeline.v
+# ** Warning: (vsim-3722) tb_clip_pipeline.sv(10): [TFMPC] - Missing connection for port 'clip_restart'.
+# ** Warning: (vsim-3017) ../rtl/framebank/afifo_32_16_256.v(231): [TFMPC] - Too few port connections. Expected 16, found 14.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_clip_pipeline/dut/u_reader/u_read_fifo/ram_inst File: ../rtl/framebank/afifo_32_16_256.v
+# ** Warning: (vsim-3722) ../rtl/framebank/afifo_32_16_256.v(231): [TFMPC] - Missing connection for port 'doa'.
+# ** Warning: (vsim-3722) ../rtl/framebank/afifo_32_16_256.v(231): [TFMPC] - Missing connection for port 'dib'.
+# RASTER_PASS frame=1 clip=1 index=0
+# RASTER_PASS frame=2 clip=1 index=0
+# RASTER_PASS frame=3 clip=1 index=1
+# RASTER_PASS frame=4 clip=1 index=2
+# RASTER_PASS frame=5 clip=1 index=0
+# RASTER_PASS frame=6 clip=1 index=0
+# RASTER_PASS frame=7 clip=1 index=1
+# RASTER_PASS frame=8 clip=1 index=2
+# RASTER_PASS frame=9 clip=1 index=0
+# RASTER_PASS frame=10 clip=0 index=0
+# RASTER_PASS frame=11 clip=0 index=0
+# RASTER_PASS frame=12 clip=0 index=0
+# RASTER_PASS frame=13 clip=1 index=0
+# RASTER_PASS frame=14 clip=0 index=0
+# RASTER_PASS frame=15 clip=0 index=0
+# RASTER_PASS frame=16 clip=0 index=0
+# RASTER_PASS frame=17 clip=0 index=0
+# RASTER_PASS frame=18 clip=1 index=0
+# TB_PASS clip pipeline: two continuous loops of first 3 actual asset frames, 18 full output rasters, per-pixel scale checks; normal/alarm restoration, CRC, FIFO and 128-word bursts
+# ** Note: $finish    : tb_clip_pipeline.sv(96)
+#    Time: 319520100 ns  Iteration: 2  Instance: /tb_clip_pipeline
+# End time: 23:16:24 on Oct 28,2026, Elapsed time: 0:10:12
+# Errors: 0, Warnings: 5

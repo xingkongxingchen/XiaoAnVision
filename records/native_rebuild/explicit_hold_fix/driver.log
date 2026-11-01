@@ -1,0 +1,363 @@
+============================================================
+   Tang Dynasty, V6.2.168116
+   Copyright (c) 2012-2025 Anlogic Inc.
+   Executable = F:/qiansai_anlu/bin/td_commands_prompt.exe
+   Built at =   16:32:07 Jun 12 2025
+   Run by =     j3136
+   Run Date =   Sun Nov  1 20:44:48 2026
+
+   Run on =     XINGKONG
+============================================================
+td > RUN-1002 : start command "import_device eagle_s20.db -package EG4S20BG256"
+RUN-1001 : Using default speed grade: NA
+ARC-1001 : Device Initialization.
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :            OPTION            |          IO          |   SETTING   
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :   cso_b/cclk/mosi/miso/dout  |  T3/R11/T10/P10/S11  |    gpio    
+ARC-1001 :             done             |         P13          |    gpio    
+ARC-1001 :           program_b          |          T2          |  dedicate  
+ARC-1001 :        tdi/tms/tck/tdo       |   C12/A15/C14/E14    |  dedicate  
+ARC-1001 : ------------------------------------------------------------------
+ARC-1004 : Device setting, marked 5 dedicate IOs in total.
+RUN-1002 : start command "open_project -single_run ./XiaoAnVision.al"
+RUN-1002 : start command "commit_param -step design"
+RUN-1001 : Print Global Property
+RUN-1001 : --------------------------------------------------------
+RUN-1001 :   Parameters   |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------
+RUN-1001 :   enable_seed  |    off     |       off        |        
+RUN-1001 :     message    |  standard  |     standard     |        
+RUN-1001 :   qor_monitor  |     on     |        on        |        
+RUN-1001 :   syn_ip_flow  |    off     |       off        |        
+RUN-1001 :     thread     |    auto    |       auto       |        
+RUN-1001 : --------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : ----------------------------------------------------------------
+RUN-1001 :       Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : ----------------------------------------------------------------
+RUN-1001 :   default_reg_initial  |    auto    |       auto       |        
+RUN-1001 :    hdl_warning_level   |   normal   |      normal      |        
+RUN-1001 : ----------------------------------------------------------------
+HDL-1007 : analyze verilog file rtl/video_clip/clip_file_preloader.v
+HDL-1007 : analyze verilog file rtl/video_clip/clip_play_control.v
+HDL-1007 : analyze verilog file rtl/video_clip/clip_nn_expand.v
+HDL-1007 : analyze verilog file rtl/video_clip/clip_voice_player.v
+HDL-1007 : analyze verilog file rtl/control/waveform_switch_control.v
+HDL-1007 : analyze verilog file rtl/control/period_setting_control.v
+HDL-1007 : analyze verilog file rtl/display/period_setting_osd.v
+HDL-1007 : analyze verilog file rtl/control/wall_clock.v
+HDL-1007 : analyze verilog file rtl/uart/pc_time_uart.v
+HDL-1007 : analyze verilog file rtl/control/panel_control_cdc.v
+HDL-1007 : analyze verilog file rtl/control/k3_hold_control.v
+HDL-1007 : analyze verilog file rtl/display/k3_params_osd.v
+HDL-1007 : analyze verilog file rtl/audio/pcm_master_volume.v
+HDL-1007 : analyze verilog file rtl/audio/dual_fat32_pcm_source.v
+HDL-1007 : analyze verilog file rtl/audio/fat32_loop_stream.v
+HDL-1007 : analyze verilog file rtl/display/scene_chinese_font.v
+HDL-1007 : analyze verilog file rtl/audio/emergency_audio_mix.v
+HDL-1007 : analyze verilog file rtl/control/emergency_scene_control.v
+HDL-1007 : analyze verilog file rtl/display/emergency_scene_overlay.v
+HDL-1007 : analyze verilog file rtl/control/emergency_control.v
+HDL-1007 : analyze verilog file rtl/uart/emergency_response_tx.v
+HDL-1007 : analyze verilog file rtl/uart/baud_tick.v
+HDL-1007 : analyze verilog file rtl/uart/uart_rx.v
+HDL-1007 : analyze verilog file rtl/uart/uart_tx.v
+HDL-1007 : analyze verilog file rtl/uart/uart_response_tx.v
+HDL-1007 : analyze verilog file rtl/uart/subtitle_command.v
+HDL-1007 : analyze verilog file rtl/uart/subtitle_uart.v
+HDL-1007 : analyze verilog file rtl/filesystem/bmp_nn_resampler.v
+HDL-1007 : analyze verilog file rtl/display/dynamic_subtitle_overlay.v
+HDL-1007 : analyze verilog file rtl/display/promax_text_overlay.v
+HDL-1007 : analyze verilog file rtl/display/timestamp_osd.v
+HDL-1007 : analyze verilog file rtl/control/thumbnail_controller.v
+HDL-1007 : analyze verilog file rtl/control/picture_adjust_control.v
+HDL-1007 : analyze verilog file rtl/display/brightness_contrast_adjust.v
+HDL-1007 : analyze verilog file rtl/display/picture_params_osd.v
+HDL-1007 : analyze verilog file rtl/display/thumbnail_layout.v
+HDL-1007 : analyze verilog file rtl/display/promax_audio_waveform.v
+HDL-1007 : analyze verilog file rtl/audio/wav_stream_player.v
+HDL-1007 : analyze verilog file rtl/audio/fat32_pcm_source.v
+HDL-1007 : analyze verilog file rtl/audio/audio_source_mux.v
+HDL-1007 : analyze verilog file rtl/audio/sync_fade_gain.v
+HDL-1007 : analyze verilog file rtl/top.v
+HDL-1007 : analyze verilog file rtl/framebank/four_bank_preload.v
+HDL-1007 : analyze verilog file rtl/framebank/pixel_crc_probe.v
+HDL-1007 : analyze verilog file rtl/framebank/media_frame_loader.v
+HDL-1007 : analyze verilog file rtl/framebank/media_sdram_write_cdc.v
+HDL-1007 : analyze verilog file rtl/framebank/media_frame_reader.v
+HDL-1007 : analyze verilog file rtl/framebank/media_player_control.v
+HDL-1007 : analyze verilog file rtl/framebank/media_video_pipeline.v
+HDL-1007 : analyze verilog file rtl/framebank/video_timing_ctrl.v
+HDL-1007 : analyze verilog file rtl/framebank/rgb_video_adapter.v
+HDL-1007 : analyze verilog file rtl/framebank/fifo_prefetch_2.v
+HDL-1007 : analyze verilog file rtl/framebank/video_fade_transition.v
+HDL-1007 : analyze verilog file rtl/framebank/afifo_32_16_256.v
+HDL-1007 : analyze verilog file rtl/control/dual_key_long_hold_guard.v
+HDL-1007 : analyze verilog file rtl/control/dual_key_chord_router.v
+HDL-1007 : analyze verilog file rtl/control/slideshow_key_router.v
+HDL-1007 : analyze verilog file rtl/control/slideshow_policy.v
+HDL-1007 : analyze verilog file rtl/control/reset_sync.v
+HDL-1007 : analyze verilog file rtl/control/sync_2ff.v
+HDL-1007 : analyze verilog file rtl/control/startup_reset.v
+HDL-1007 : analyze verilog file rtl/display/seg7_status_panel.v
+HDL-1007 : analyze verilog file rtl/display/load_progress_probe.v
+HDL-1007 : analyze verilog file rtl/display/osd_overlay_24.v
+HDL-1007 : analyze verilog file rtl/display/status_osd_overlay.v
+HDL-1007 : analyze verilog file rtl/base/hdmi_phy_warpper.v
+HDL-1007 : analyze verilog file rtl/base/lane_lvds_10_1.v
+HDL-1007 : analyze verilog file rtl/base/ip/afifo_16_32_256.v
+HDL-1007 : analyze verilog file rtl/base/ip/sys_pll.v
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in rtl/base/ip/sys_pll.v(85)
+HDL-1007 : analyze verilog file rtl/base/ip/video_pll.v
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in rtl/base/ip/video_pll.v(78)
+HDL-1007 : analyze verilog file rtl/base/include/sdr_as_ram.enc.v
+HDL-1007 : analyze included file rtl/base/include/global_def.v in rtl/base/include/sdr_as_ram.enc.v(10)
+HDL-1007 : back to file 'rtl/base/include/sdr_as_ram.enc.v' in rtl/base/include/sdr_as_ram.enc.v(10)
+Copyright (c) 1998-2019 The OpenSSL Project.  All rights reserved.
+This product includes software developed by the OpenSSL Project
+for use in the OpenSSL Toolkit (http://www.openssl.org/)
+Copyright (C) 1995-1998 Eric Young (eay@cryptsoft.com)
+All rights reserved.
+This product includes cryptographic software written by Eric Young (eay@cryptsoft.com)
+HDL-1007 : back to file 'rtl/base/include/sdr_as_ram.enc.v' in rtl/base/include/sdr_as_ram.enc.v(45)
+HDL-1007 : analyze verilog file rtl/base/include/sdr_init_ref.enc.v
+HDL-1007 : analyze included file rtl/base/include/global_def.v in rtl/base/include/sdr_init_ref.enc.v(11)
+HDL-1007 : back to file 'rtl/base/include/sdr_init_ref.enc.v' in rtl/base/include/sdr_init_ref.enc.v(11)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in rtl/base/include/sdr_init_ref.enc.v(57)
+HDL-1007 : back to file 'rtl/base/include/sdr_init_ref.enc.v' in rtl/base/include/sdr_init_ref.enc.v(149)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in rtl/base/include/sdr_init_ref.enc.v(47)
+HDL-1007 : analyze verilog file rtl/base/include/sdr_wrrd.enc.v
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in rtl/base/include/sdr_wrrd.enc.v(283)
+HDL-1007 : back to file 'rtl/base/include/sdr_wrrd.enc.v' in rtl/base/include/sdr_wrrd.enc.v(19)
+HDL-1007 : analyze verilog file rtl/filesystem/fat32_volume_scanner.v
+HDL-1007 : analyze verilog file rtl/filesystem/fat32_file_streamer.v
+HDL-1007 : analyze verilog file rtl/filesystem/sd_sector_adapter.v
+HDL-1007 : analyze verilog file rtl/filesystem/fat32_bmp_read.v
+HDL-1007 : analyze verilog file rtl/base/sd/color_bar.v
+HDL-1007 : analyze included file rtl/base/sd/video_define.v in rtl/base/sd/color_bar.v(2)
+HDL-1007 : back to file 'rtl/base/sd/color_bar.v' in rtl/base/sd/color_bar.v(2)
+HDL-1007 : analyze verilog file rtl/base/sd/sd_card_cmd.v
+HDL-1007 : analyze verilog file rtl/base/sd/sd_card_sec_read_write.v
+HDL-1007 : analyze verilog file rtl/base/sd/sd_card_top.v
+HDL-1007 : analyze verilog file rtl/base/sd/sdram.v
+HDL-1007 : analyze included file rtl/base/sd/../include/global_def.v in rtl/base/sd/sdram.v(10)
+HDL-1007 : back to file 'rtl/base/sd/sdram.v' in rtl/base/sd/sdram.v(10)
+HDL-1007 : undeclared symbol 'SDR_CKE', assumed default net type 'wire' in rtl/base/sd/sdram.v(89)
+HDL-1007 : analyze verilog file rtl/base/sd/spi_master.v
+HDL-1007 : analyze verilog file rtl/hdmi_audio/hdmi_audio_acr_packetizer.v
+HDL-1007 : analyze verilog file rtl/hdmi_audio/hdmi_audio_infoframe_packetizer.v
+HDL-1007 : analyze verilog file rtl/hdmi_audio/hdmi_audio_packet_scheduler.v
+HDL-1007 : analyze verilog file rtl/hdmi_audio/hdmi_audio_sample_packetizer.v
+HDL-1007 : analyze verilog file rtl/hdmi_audio/hdmi_audio_symbol_core.v
+HDL-1007 : analyze verilog file rtl/hdmi_audio/hdmi_bch8.v
+HDL-1007 : analyze verilog file rtl/hdmi_audio/hdmi_data_island_mapper.v
+HDL-1007 : analyze verilog file rtl/hdmi_audio/hdmi_data_island_scheduler.v
+HDL-1007 : analyze verilog file rtl/hdmi_audio/hdmi_terc4_encoder.v
+HDL-1007 : analyze verilog file rtl/hdmi_audio/hdmi_tmds_channel_encoder.v
+HDL-1007 : analyze verilog file rtl/audio/m06_pcm_contract_adapter.v
+HDL-1007 : analyze verilog file rtl/integration/media_hdmi_audio_bridge.v
+HDL-1007 : analyze verilog file rtl/audio/pcm_media_tone.v
+HDL-1007 : analyze verilog file rtl/integration/hdmi_video_position.v
+HDL-1007 : analyze verilog file rtl/integration/media_status_cdc.v
+PRJ-1401 : Successfully analyzed 99 source files.
+RUN-1002 : start command "import_db ./XiaoAnVision_Runs/phy_1/XiaoAnVision_pr.db"
+RUN-1001 : Importing database generated by Tang Dynasty, V6.2.168116.
+RUN-1001 : Database version number 46207
+RUN-1002 : start command "set_param gate opt_area high"
+RUN-1001 : Import flow parameters
+RUN-1001 : Import netlist
+PHY-1001 : Generate detailed routing grids ...
+PHY-1001 : End build routing graph; 1.964378s wall, 1.718750s user + 0.109375s system = 1.828125s CPU (93.1%)
+
+PHY-1001 : Build lut bridge;  0.046277s wall, 0.046875s user + 0.000000s system = 0.046875s CPU (101.3%)
+
+PHY-1001 : Generate nets ...
+PHY-1001 : net clk_dup_1 will be routed on clock mesh
+PHY-1001 : clock net sd_card_clk will be merged with clock sys_pll_m0/clk0_buf
+PHY-1001 : net U3/u2_ram/SDRAM_CLK will be routed on clock mesh
+PHY-1001 : net U3/u2_ram/u1_init_ref/Sdr_clk will be routed on clock mesh
+PHY-1001 : clock net u_gain/pix_clk will be merged with clock video_pll_m0/clk0_buf
+PHY-1001 : net u_hdmi2phy_wrapper/u0_lane_lvds_8_1/I_serial_clk will be routed on clock mesh
+PHY-1001 : eco open net = 0
+PHY-1001 : 627 feed throughs used by 527 nets
+RUN-1001 : Import phy database
+RUN-1001 : Import timing constraints
+RUN-1001 : Import IO constraints
+RUN-1001 : Import Inst constraints
+RUN-1001 : Import ChipWatcher
+RUN-1001 : Import design success TD_VERSION=6.2.168116 , DB_VERSION=46207
+RUN-1003 : finish command "import_db ./XiaoAnVision_Runs/phy_1/XiaoAnVision_pr.db" in  7.025992s wall, 5.921875s user + 0.375000s system = 6.296875s CPU (89.6%)
+
+RUN-1004 : used memory is 862 MB, reserved memory is 850 MB, peak memory is 862 MB
+RUN-1002 : start command "fix_hold"
+
+PHY-1001 : Stage 1 | Hold Fix
+PHY-1001 : Stage 1.1 | Load Design Data
+PHY-1034 : Refresh detailed routing grids ...
+PHY-1001 : Generate nets ...
+PHY-1001 : net clk_dup_1 will be routed on clock mesh
+PHY-1001 : clock net sd_card_clk will be merged with clock sys_pll_m0/clk0_buf
+PHY-1001 : net U3/u2_ram/SDRAM_CLK will be routed on clock mesh
+PHY-1001 : net U3/u2_ram/u1_init_ref/Sdr_clk will be routed on clock mesh
+PHY-1001 : clock net u_gain/pix_clk will be merged with clock video_pll_m0/clk0_buf
+PHY-1001 : net u_hdmi2phy_wrapper/u0_lane_lvds_8_1/I_serial_clk will be routed on clock mesh
+PHY-1001 : eco open net = 0
+PHY-1001 : End Stage 1.1 | Load Design Data; Time: 1.331584s wall, 1.234375s user + 0.031250s system = 1.265625s CPU (95.0%); Memory(MB): used = 862, reserved = 858, peak = 862;
+
+PHY-1001 : Stage 1.2 | Hold Fix Optimization
+RUN-1002 : start command "start_timer"
+RUN-1003 : finish command "start_timer" in  1.040729s wall, 0.937500s user + 0.062500s system = 1.000000s CPU (96.1%)
+
+RUN-1004 : used memory is 989 MB, reserved memory is 984 MB, peak memory is 989 MB
+TMR-2502 : Net delay update with mode: Routed
+PHY-1001 : Timing info: SWNS 0.122ns | STNS 0.000ns | HWNS -0.062ns | HTNS -0.257ns.
+PHY-1001 : Processing hold violation on 10 end-point, worst slack = -62ps, best slack = 473ps.
+PHY-1001 : End timing refresh.  2.498276s wall, 2.218750s user + 0.218750s system = 2.437500s CPU (97.6%)
+
+PHY-1001 : Stage 1.2.1 | Phase 1
+PHY-1001 : Stage 1.2.1.1 | Hold Fix By LutBridge
+PHY-1001 : len = 2.44642e+06, over cnt = 0(0%), over = 0, worst = 0, crit = 0
+PHY-1001 : Bridge count = 6; unresolved count = 0.
+PHY-1001 : 4 out of 10 ((40.00)%) EP fixed by LB.
+PHY-1001 : End Stage 1.2.1.1 | Hold Fix By LutBridge; Time: 0.056567s wall, 0.109375s user + 0.093750s system = 0.203125s CPU (359.1%); Memory(MB): used = 1068, reserved = 1062, peak = 1068;
+
+PHY-1001 : Timing info: SWNS 0.122ns | STNS 0.000ns | HWNS -0.062ns | HTNS -0.257ns.
+PHY-1001 : Processing hold violation on 10 end-point, worst slack = -62ps, best slack = 473ps.
+PHY-1001 : End timing refresh.  0.074252s wall, 0.046875s user + 0.031250s system = 0.078125s CPU (105.2%)
+
+PHY-1001 : Stage 1.2.1.2 | Hold Fix By Pin
+PHY-1001 : len = 2.44703e+06, over cnt = 0(0%), over = 0, worst = 0, crit = 0
+PHY-1001 : 10 out of 10 ((100.00)%) EP fixed by pin delay.
+PHY-1001 : End Stage 1.2.1.2 | Hold Fix By Pin; Time: 0.293872s wall, 0.296875s user + 0.015625s system = 0.312500s CPU (106.3%); Memory(MB): used = 1069, reserved = 1063, peak = 1069;
+
+PHY-1001 : Timing info: SWNS 0.122ns | STNS 0.000ns | HWNS 0.025ns | HTNS 0.000ns.
+PHY-1001 : End timing refresh.  0.046982s wall, 0.046875s user + 0.000000s system = 0.046875s CPU (99.8%)
+
+PHY-1001 : End Stage 1.2.1 | Phase 1; Time: 0.487653s wall, 0.515625s user + 0.140625s system = 0.656250s CPU (134.6%); Memory(MB): used = 1069, reserved = 1063, peak = 1069;
+
+PHY-1001 : End Stage 1.2 | Hold Fix Optimization; Time: 2.995671s wall, 2.734375s user + 0.359375s system = 3.093750s CPU (103.3%); Memory(MB): used = 1069, reserved = 1063, peak = 1069;
+
+PHY-1001 : 637 feed throughs used by 531 nets
+PHY-1001 : End Stage 1 | Hold Fix; Time: 6.405430s wall, 5.734375s user + 0.593750s system = 6.328125s CPU (98.8%); Memory(MB): used = 1070, reserved = 1064, peak = 1070;
+
+RUN-1003 : finish command "fix_hold" in  6.414754s wall, 5.734375s user + 0.609375s system = 6.343750s CPU (98.9%)
+
+RUN-1004 : used memory is 1070 MB, reserved memory is 1064 MB, peak memory is 1070 MB
+RUN-1002 : start command "update_timing -mode final"
+RUN-1002 : start command "start_timer"
+RUN-1003 : finish command "start_timer" in  1.102334s wall, 0.937500s user + 0.109375s system = 1.046875s CPU (95.0%)
+
+RUN-1004 : used memory is 1070 MB, reserved memory is 1064 MB, peak memory is 1070 MB
+RUN-1003 : finish command "update_timing -mode final" in  3.139405s wall, 2.875000s user + 0.171875s system = 3.046875s CPU (97.1%)
+
+RUN-1004 : used memory is 1070 MB, reserved memory is 1064 MB, peak memory is 1070 MB
+RUN-1002 : start command "report_qor -step route -file G:/qiansai_gongcheng/release/al_full_rebuild_20261101/run02/post_route_hold_fix/route.qor"
+-----------------------------------------------------------
+| QoR metrics               |         value               |
+-----------------------------------------------------------
+| Timing                    |                             |
+|     Setup WNS             |          122                |
+|     Setup TNS             |            0                |
+|     Num of violated S-EP  |            0                |
+|     Hold WNS              |           25                |
+|     Hold TNS              |            0                |
+|     Num of violated H-EP  |            0                |
+-----------------------------------------------------------
+| Routing Resource          |                             |
+|     Wire length           |      2447032                |
+-----------------------------------------------------------
+| Utilization               |                             |
+|     #slices               |         9055                |
+|     slices percentage     |       92.40%                |
+|     #RAMs                 |           48                |
+|     #DSPs                 |           17                |
+|     #DRAMHARDCON          |            0                |
+-----------------------------------------------------------
+Report route stage QoR done.
+
+RUN-1003 : finish command "report_qor -step route -file G:/qiansai_gongcheng/release/al_full_rebuild_20261101/run02/post_route_hold_fix/route.qor" in  2.207257s wall, 2.140625s user + 0.000000s system = 2.140625s CPU (97.0%)
+
+RUN-1004 : used memory is 1071 MB, reserved memory is 1064 MB, peak memory is 1071 MB
+RUN-1002 : start command "report_area -io_info -file G:/qiansai_gongcheng/release/al_full_rebuild_20261101/run02/post_route_hold_fix/route.area"
+RUN-1001 : standard
+***Report Model: top Device: EG4S20BG256***
+
+IO Statistics
+#IO                        39   out of    188   20.74%
+  #input                   12
+  #output                  26
+  #inout                    1
+
+Utilization Statistics
+#lut                    17600   out of  19600   89.80%
+#reg                     9814   out of  19600   50.07%
+#le                     17600
+  #lut only              7786   out of  17600   44.24%
+  #reg only                 0   out of  17600    0.00%
+  #lut&reg               9814   out of  17600   55.76%
+#bram                      48   out of     64   75.00%
+  #bram9k                  48
+  #fifo9k                   0
+#bram32k                    0   out of     16    0.00%
+#dsp                       17   out of     29   58.62%
+#pad                       43   out of    188   22.87%
+  #ireg                     9
+  #oreg                    24
+  #treg                     0
+#pll                        2   out of      4   50.00%
+#gclk                       2   out of     16   12.50%
+
+
+DataNet Average Fanout:
+
+   Index     Fanout     Nets   
+    #1          1       13811  
+    #2          2       4622   
+    #3          3       1792   
+    #4          4       1062   
+    #5        5-10      1616   
+    #6        11-50      732   
+    #7       51-100      90    
+    #8       101-500     15    
+    #9        >500        2    
+  Average     3.02             
+
+RUN-1002 : start command "report_timing_summary -file G:/qiansai_gongcheng/release/al_full_rebuild_20261101/run02/post_route_hold_fix/route.timing"
+RUN-1002 : start command "export_db G:/qiansai_gongcheng/release/al_full_rebuild_20261101/run02/post_route_hold_fix/XiaoAnVision_final.db"
+RUN-1001 : Exported flow parameters
+RUN-1001 : Exported /
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported phy database
+RUN-1001 : Exported packer
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported ATMR Setting
+RUN-1001 : Exported timing constraints
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1001 : Exported ChipWatcher
+RUN-1002 : start command "bitgen -bit G:/qiansai_gongcheng/release/al_full_rebuild_20261101/run02/post_route_hold_fix/XiaoAnVision.bit"
+RUN-1002 : start command "export_bid XiaoAnVision_inst.bid"
+BIT-1003 : Start to generate bitstream. 
+BIT-1002 : Init instances with 28 threads.
+BIT-1002 : Init instances completely, inst num: 9225
+BIT-1002 : Init pips with 28 threads.
+BIT-1002 : Init pips completely, net num: 22247, pip num: 230034
+BIT-1002 : Init feedthrough with 28 threads.
+BIT-1002 : Init feedthrough completely, num: 637
+BIT-1003 : Multithreading accelaration with 28 threads.
+BIT-1003 : Generate bitstream completely, there are 637074 bits set as '1'.
+BIT-1004 : PLL setting string = 0110
+BIT-1004 : Generate bits file G:/qiansai_gongcheng/release/al_full_rebuild_20261101/run02/post_route_hold_fix/XiaoAnVision.bit.
+RUN-1003 : finish command "bitgen -bit G:/qiansai_gongcheng/release/al_full_rebuild_20261101/run02/post_route_hold_fix/XiaoAnVision.bit" in  5.381293s wall, 95.984375s user + 6.078125s system = 102.062500s CPU (1896.6%)
+
+RUN-1004 : used memory is 1095 MB, reserved memory is 1187 MB, peak memory is 1095 MB
+NATIVE_AL_POST_ROUTE_HOLD_FIX_AND_TIMING_PASS

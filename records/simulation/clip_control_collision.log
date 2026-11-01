@@ -1,0 +1,28 @@
+# do run_clip_control_collision.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:49:37 on Oct 28,2026
+# vlog -sv -work work_clip_control_collision ../rtl/video_clip/clip_file_preloader.v ../rtl/video_clip/clip_nn_expand.v ../rtl/video_clip/clip_play_control.v ../rtl/video_clip/clip_voice_player.v ../rtl/filesystem/fat32_file_streamer.v tb_clip_control.sv 
+# -- Compiling module clip_file_preloader
+# -- Compiling module clip_nn_expand
+# -- Compiling module clip_play_control
+# -- Compiling module clip_voice_player
+# -- Compiling module fat32_file_streamer
+# -- Compiling module tb_clip_control
+# 
+# Top level modules:
+# 	clip_file_preloader
+# 	clip_nn_expand
+# 	clip_voice_player
+# 	tb_clip_control
+# End time: 22:49:37 on Oct 28,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c work_clip_control_collision.tb_clip_control -gFRAME_PERIOD=1000 
+# Start time: 22:49:37 on Oct 28,2026
+# Loading sv_std.std
+# Loading work_clip_control_collision.tb_clip_control
+# Loading work_clip_control_collision.clip_play_control
+# TB_PASS SW1 high: three gap-free 20-frame loops with frame-atomic addresses/duration and voice restart; low cancellation, debounce, deferred boot, blocked, emergency resume, readiness loss and reset
+# ** Note: $finish    : tb_clip_control.sv(45)
+#    Time: 1190040 ns  Iteration: 1  Instance: /tb_clip_control
+# End time: 22:49:38 on Oct 28,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

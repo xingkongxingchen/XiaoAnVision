@@ -1,0 +1,23 @@
+# do run_period_cached2.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:03:12 on Oct 28,2026
+# vlog -sv -work work_period_cached ../rtl/framebank/media_player_control.v reference_player_control.v tb_period_cached.sv 
+# -- Compiling module media_player_control
+# -- Compiling module reference_player_control
+# -- Compiling module tb_period_cached
+# 
+# Top level modules:
+# 	tb_period_cached
+# End time: 23:03:12 on Oct 28,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c work_period_cached.tb_period_cached -gDEFAULT_PERIOD=5 -gEMERGENCY=1 -gDIRECT=1 
+# Start time: 23:03:12 on Oct 28,2026
+# Loading sv_std.std
+# Loading work_period_cached.tb_period_cached
+# Loading work_period_cached.media_player_control
+# Loading work_period_cached.reference_player_control
+# TB_PASS cached period threshold cycle-equivalent: DIRECT1 EMERGENCY1 DEFAULT5 checks50351; randomized valid/invalid periods, expiration, manual controls, mailbox, pause, emergency and reset
+# ** Note: $finish    : tb_period_cached.sv(38)
+#    Time: 503670 ns  Iteration: 1  Instance: /tb_period_cached
+# End time: 23:03:13 on Oct 28,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

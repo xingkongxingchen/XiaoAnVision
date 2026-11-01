@@ -1,0 +1,12 @@
+{
+  "source_archive": "G:\\qiansai_gongcheng\\release\\code_submission_td_20261101\\\u6821\u5b89\u89c6\u754c_160x120_10fps_\u5b8c\u6574\u7248\u6e90\u7801\u63d0\u4ea4\u5305_\u542bTD\u5de5\u7a0b.zip",
+  "archive_sha256": "79f98532e6ef31dab8b670e77d6f33ea212433d217a1275ba080cec6f9220a7e",
+  "frozen_bit_sha256": "9cd93289ff80836c85ac8390bd81eed5641eff19164ff116f81952128ccd7f93",
+  "original_project_sha256": "53411c60d66fefbfd197b3f7ff35811afa03891caf81288ef602b5717f0fbe06",
+  "td_executable": "F:\\qiansai_anlu\\bin\\td_commands_prompt.exe",
+  "started_utc": "2026-11-01T12:37:20.680759+00:00",
+  "mode": "Native .al project multi-run flow; route fix_hold on restores hold-time repair; no RTL or constraint changes",
+  "source_files": 203,
+  "hdl_inputs": 99,
+  "hardware_write_requested": false
+}

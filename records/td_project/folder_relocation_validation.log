@@ -1,0 +1,354 @@
+============================================================
+   Tang Dynasty, V6.2.168116
+   Copyright (c) 2012-2025 Anlogic Inc.
+   Executable = F:/qiansai_anlu/bin/td_commands_prompt.exe
+   Built at =   16:32:07 Jun 12 2025
+   Run by =     j3136
+   Run Date =   Sun Nov  1 20:57:43 2026
+
+   Run on =     XINGKONG
+============================================================
+td > RUN-1002 : start command "import_device eagle_s20.db -package EG4S20BG256"
+RUN-1001 : Using default speed grade: NA
+ARC-1001 : Device Initialization.
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :            OPTION            |          IO          |   SETTING   
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :   cso_b/cclk/mosi/miso/dout  |  T3/R11/T10/P10/S11  |    gpio    
+ARC-1001 :             done             |         P13          |    gpio    
+ARC-1001 :           program_b          |          T2          |  dedicate  
+ARC-1001 :        tdi/tms/tck/tdo       |   C12/A15/C14/E14    |  dedicate  
+ARC-1001 : ------------------------------------------------------------------
+ARC-1004 : Device setting, marked 5 dedicate IOs in total.
+RUN-1002 : start command "open_project -single_run ./XiaoAnVision.al"
+RUN-1002 : start command "commit_param -step design"
+RUN-1001 : Print Global Property
+RUN-1001 : --------------------------------------------------------
+RUN-1001 :   Parameters   |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------
+RUN-1001 :   enable_seed  |    off     |       off        |        
+RUN-1001 :     message    |  standard  |     standard     |        
+RUN-1001 :   qor_monitor  |     on     |        on        |        
+RUN-1001 :   syn_ip_flow  |    off     |       off        |        
+RUN-1001 :     thread     |    auto    |       auto       |        
+RUN-1001 : --------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : ----------------------------------------------------------------
+RUN-1001 :       Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : ----------------------------------------------------------------
+RUN-1001 :   default_reg_initial  |    auto    |       auto       |        
+RUN-1001 :    hdl_warning_level   |   normal   |      normal      |        
+RUN-1001 : ----------------------------------------------------------------
+HDL-1007 : analyze verilog file rtl/video_clip/clip_file_preloader.v
+HDL-1007 : analyze verilog file rtl/video_clip/clip_play_control.v
+HDL-1007 : analyze verilog file rtl/video_clip/clip_nn_expand.v
+HDL-1007 : analyze verilog file rtl/video_clip/clip_voice_player.v
+HDL-1007 : analyze verilog file rtl/control/waveform_switch_control.v
+HDL-1007 : analyze verilog file rtl/control/period_setting_control.v
+HDL-1007 : analyze verilog file rtl/display/period_setting_osd.v
+HDL-1007 : analyze verilog file rtl/control/wall_clock.v
+HDL-1007 : analyze verilog file rtl/uart/pc_time_uart.v
+HDL-1007 : analyze verilog file rtl/control/panel_control_cdc.v
+HDL-1007 : analyze verilog file rtl/control/k3_hold_control.v
+HDL-1007 : analyze verilog file rtl/display/k3_params_osd.v
+HDL-1007 : analyze verilog file rtl/audio/pcm_master_volume.v
+HDL-1007 : analyze verilog file rtl/audio/dual_fat32_pcm_source.v
+HDL-1007 : analyze verilog file rtl/audio/fat32_loop_stream.v
+HDL-1007 : analyze verilog file rtl/display/scene_chinese_font.v
+HDL-1007 : analyze verilog file rtl/audio/emergency_audio_mix.v
+HDL-1007 : analyze verilog file rtl/control/emergency_scene_control.v
+HDL-1007 : analyze verilog file rtl/display/emergency_scene_overlay.v
+HDL-1007 : analyze verilog file rtl/control/emergency_control.v
+HDL-1007 : analyze verilog file rtl/uart/emergency_response_tx.v
+HDL-1007 : analyze verilog file rtl/uart/baud_tick.v
+HDL-1007 : analyze verilog file rtl/uart/uart_rx.v
+HDL-1007 : analyze verilog file rtl/uart/uart_tx.v
+HDL-1007 : analyze verilog file rtl/uart/uart_response_tx.v
+HDL-1007 : analyze verilog file rtl/uart/subtitle_command.v
+HDL-1007 : analyze verilog file rtl/uart/subtitle_uart.v
+HDL-1007 : analyze verilog file rtl/filesystem/bmp_nn_resampler.v
+HDL-1007 : analyze verilog file rtl/display/dynamic_subtitle_overlay.v
+HDL-1007 : analyze verilog file rtl/display/promax_text_overlay.v
+HDL-1007 : analyze verilog file rtl/display/timestamp_osd.v
+HDL-1007 : analyze verilog file rtl/control/thumbnail_controller.v
+HDL-1007 : analyze verilog file rtl/control/picture_adjust_control.v
+HDL-1007 : analyze verilog file rtl/display/brightness_contrast_adjust.v
+HDL-1007 : analyze verilog file rtl/display/picture_params_osd.v
+HDL-1007 : analyze verilog file rtl/display/thumbnail_layout.v
+HDL-1007 : analyze verilog file rtl/display/promax_audio_waveform.v
+HDL-1007 : analyze verilog file rtl/audio/wav_stream_player.v
+HDL-1007 : analyze verilog file rtl/audio/fat32_pcm_source.v
+HDL-1007 : analyze verilog file rtl/audio/audio_source_mux.v
+HDL-1007 : analyze verilog file rtl/audio/sync_fade_gain.v
+HDL-1007 : analyze verilog file rtl/top.v
+HDL-1007 : analyze verilog file rtl/framebank/four_bank_preload.v
+HDL-1007 : analyze verilog file rtl/framebank/pixel_crc_probe.v
+HDL-1007 : analyze verilog file rtl/framebank/media_frame_loader.v
+HDL-1007 : analyze verilog file rtl/framebank/media_sdram_write_cdc.v
+HDL-1007 : analyze verilog file rtl/framebank/media_frame_reader.v
+HDL-1007 : analyze verilog file rtl/framebank/media_player_control.v
+HDL-1007 : analyze verilog file rtl/framebank/media_video_pipeline.v
+HDL-1007 : analyze verilog file rtl/framebank/video_timing_ctrl.v
+HDL-1007 : analyze verilog file rtl/framebank/rgb_video_adapter.v
+HDL-1007 : analyze verilog file rtl/framebank/fifo_prefetch_2.v
+HDL-1007 : analyze verilog file rtl/framebank/video_fade_transition.v
+HDL-1007 : analyze verilog file rtl/framebank/afifo_32_16_256.v
+HDL-1007 : analyze verilog file rtl/control/dual_key_long_hold_guard.v
+HDL-1007 : analyze verilog file rtl/control/dual_key_chord_router.v
+HDL-1007 : analyze verilog file rtl/control/slideshow_key_router.v
+HDL-1007 : analyze verilog file rtl/control/slideshow_policy.v
+HDL-1007 : analyze verilog file rtl/control/reset_sync.v
+HDL-1007 : analyze verilog file rtl/control/sync_2ff.v
+HDL-1007 : analyze verilog file rtl/control/startup_reset.v
+HDL-1007 : analyze verilog file rtl/display/seg7_status_panel.v
+HDL-1007 : analyze verilog file rtl/display/load_progress_probe.v
+HDL-1007 : analyze verilog file rtl/display/osd_overlay_24.v
+HDL-1007 : analyze verilog file rtl/display/status_osd_overlay.v
+HDL-1007 : analyze verilog file rtl/base/hdmi_phy_warpper.v
+HDL-1007 : analyze verilog file rtl/base/lane_lvds_10_1.v
+HDL-1007 : analyze verilog file rtl/base/ip/afifo_16_32_256.v
+HDL-1007 : analyze verilog file rtl/base/ip/sys_pll.v
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in rtl/base/ip/sys_pll.v(85)
+HDL-1007 : analyze verilog file rtl/base/ip/video_pll.v
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in rtl/base/ip/video_pll.v(78)
+HDL-1007 : analyze verilog file rtl/base/include/sdr_as_ram.enc.v
+HDL-1007 : analyze included file rtl/base/include/global_def.v in rtl/base/include/sdr_as_ram.enc.v(10)
+HDL-1007 : back to file 'rtl/base/include/sdr_as_ram.enc.v' in rtl/base/include/sdr_as_ram.enc.v(10)
+Copyright (c) 1998-2019 The OpenSSL Project.  All rights reserved.
+This product includes software developed by the OpenSSL Project
+for use in the OpenSSL Toolkit (http://www.openssl.org/)
+Copyright (C) 1995-1998 Eric Young (eay@cryptsoft.com)
+All rights reserved.
+This product includes cryptographic software written by Eric Young (eay@cryptsoft.com)
+HDL-1007 : back to file 'rtl/base/include/sdr_as_ram.enc.v' in rtl/base/include/sdr_as_ram.enc.v(45)
+HDL-1007 : analyze verilog file rtl/base/include/sdr_init_ref.enc.v
+HDL-1007 : analyze included file rtl/base/include/global_def.v in rtl/base/include/sdr_init_ref.enc.v(11)
+HDL-1007 : back to file 'rtl/base/include/sdr_init_ref.enc.v' in rtl/base/include/sdr_init_ref.enc.v(11)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in rtl/base/include/sdr_init_ref.enc.v(57)
+HDL-1007 : back to file 'rtl/base/include/sdr_init_ref.enc.v' in rtl/base/include/sdr_init_ref.enc.v(149)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in rtl/base/include/sdr_init_ref.enc.v(47)
+HDL-1007 : analyze verilog file rtl/base/include/sdr_wrrd.enc.v
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in rtl/base/include/sdr_wrrd.enc.v(283)
+HDL-1007 : back to file 'rtl/base/include/sdr_wrrd.enc.v' in rtl/base/include/sdr_wrrd.enc.v(19)
+HDL-1007 : analyze verilog file rtl/filesystem/fat32_volume_scanner.v
+HDL-1007 : analyze verilog file rtl/filesystem/fat32_file_streamer.v
+HDL-1007 : analyze verilog file rtl/filesystem/sd_sector_adapter.v
+HDL-1007 : analyze verilog file rtl/filesystem/fat32_bmp_read.v
+HDL-1007 : analyze verilog file rtl/base/sd/color_bar.v
+HDL-1007 : analyze included file rtl/base/sd/video_define.v in rtl/base/sd/color_bar.v(2)
+HDL-1007 : back to file 'rtl/base/sd/color_bar.v' in rtl/base/sd/color_bar.v(2)
+HDL-1007 : analyze verilog file rtl/base/sd/sd_card_cmd.v
+HDL-1007 : analyze verilog file rtl/base/sd/sd_card_sec_read_write.v
+HDL-1007 : analyze verilog file rtl/base/sd/sd_card_top.v
+HDL-1007 : analyze verilog file rtl/base/sd/sdram.v
+HDL-1007 : analyze included file rtl/base/sd/../include/global_def.v in rtl/base/sd/sdram.v(10)
+HDL-1007 : back to file 'rtl/base/sd/sdram.v' in rtl/base/sd/sdram.v(10)
+HDL-1007 : undeclared symbol 'SDR_CKE', assumed default net type 'wire' in rtl/base/sd/sdram.v(89)
+HDL-1007 : analyze verilog file rtl/base/sd/spi_master.v
+HDL-1007 : analyze verilog file rtl/hdmi_audio/hdmi_audio_acr_packetizer.v
+HDL-1007 : analyze verilog file rtl/hdmi_audio/hdmi_audio_infoframe_packetizer.v
+HDL-1007 : analyze verilog file rtl/hdmi_audio/hdmi_audio_packet_scheduler.v
+HDL-1007 : analyze verilog file rtl/hdmi_audio/hdmi_audio_sample_packetizer.v
+HDL-1007 : analyze verilog file rtl/hdmi_audio/hdmi_audio_symbol_core.v
+HDL-1007 : analyze verilog file rtl/hdmi_audio/hdmi_bch8.v
+HDL-1007 : analyze verilog file rtl/hdmi_audio/hdmi_data_island_mapper.v
+HDL-1007 : analyze verilog file rtl/hdmi_audio/hdmi_data_island_scheduler.v
+HDL-1007 : analyze verilog file rtl/hdmi_audio/hdmi_terc4_encoder.v
+HDL-1007 : analyze verilog file rtl/hdmi_audio/hdmi_tmds_channel_encoder.v
+HDL-1007 : analyze verilog file rtl/audio/m06_pcm_contract_adapter.v
+HDL-1007 : analyze verilog file rtl/integration/media_hdmi_audio_bridge.v
+HDL-1007 : analyze verilog file rtl/audio/pcm_media_tone.v
+HDL-1007 : analyze verilog file rtl/integration/hdmi_video_position.v
+HDL-1007 : analyze verilog file rtl/integration/media_status_cdc.v
+PRJ-1401 : Successfully analyzed 99 source files.
+RUN-1002 : start command "elaborate -top top"
+HDL-1007 : elaborate module top in rtl/top.v(3)
+HDL-1007 : elaborate module startup_reset in rtl/control/startup_reset.v(4)
+HDL-1007 : elaborate module reset_sync in rtl/control/reset_sync.v(12)
+HDL-1007 : elaborate module sync_2ff in rtl/control/sync_2ff.v(12)
+HDL-1007 : elaborate module sys_pll in rtl/base/ip/sys_pll.v(24)
+HDL-1007 : elaborate module EG_LOGIC_BUFG in F:\qiansai_anlu\arch/eagle_macro.v(5)
+HDL-1007 : elaborate module EG_PHY_PLL(FIN="50.000000",FBCLK_DIV=2,CLKC0_DIV=10,CLKC1_DIV=10,CLKC2_DIV=10,CLKC0_ENABLE="ENABLE",CLKC1_ENABLE="ENABLE",CLKC2_ENABLE="ENABLE",FEEDBK_PATH="CLKC0_EXT",STDBY_ENABLE="DISABLE",CLKC0_CPHASE=9,CLKC1_CPHASE=9,CLKC2_CPHASE=4,GMC_GAIN=4,ICP_CURRENT=29,KVCO=4,LPF_CAPACITOR=1,LPF_RESISTOR=2,SYNC_ENABLE="DISABLE") in F:\qiansai_anlu\arch/eagle_macro.v(889)
+HDL-1007 : elaborate module video_pll in rtl/base/ip/video_pll.v(23)
+HDL-1007 : elaborate module EG_PHY_PLL(FIN="50.000000",REFCLK_DIV=2,CLKC0_DIV=40,CLKC1_DIV=8,CLKC0_ENABLE="ENABLE",CLKC1_ENABLE="ENABLE",FEEDBK_PATH="CLKC0_EXT",STDBY_ENABLE="DISABLE",CLKC0_CPHASE=39,CLKC1_CPHASE=7,GMC_GAIN=2,ICP_CURRENT=9,KVCO=2,LPF_CAPACITOR=1,LPF_RESISTOR=8,SYNC_ENABLE="DISABLE") in F:\qiansai_anlu\arch/eagle_macro.v(889)
+HDL-1007 : elaborate module four_bank_preload(ENABLE_AUDIO=1,ENABLE_SCALE=1,ENABLE_CRC_DIAG=1,ENABLE_CLIP=1) in rtl/framebank/four_bank_preload.v(5)
+HDL-1007 : elaborate module sd_card_top(SPI_HIGH_SPEED_DIV=2) in rtl/base/sd/sd_card_top.v(2)
+HDL-1007 : elaborate module sd_card_sec_read_write(SPI_HIGH_SPEED_DIV=2) in rtl/base/sd/sd_card_sec_read_write.v(2)
+HDL-1007 : elaborate module sd_card_cmd in rtl/base/sd/sd_card_cmd.v(2)
+HDL-1007 : elaborate module spi_master in rtl/base/sd/spi_master.v(2)
+HDL-1007 : elaborate module fat32_bmp_read(ENABLE_SCALE=1) in rtl/filesystem/fat32_bmp_read.v(5)
+HDL-1007 : elaborate module bmp_nn_resampler in rtl/filesystem/bmp_nn_resampler.v(6)
+HDL-1007 : extracting RAM for identifier 'byte_mem' in rtl/filesystem/bmp_nn_resampler.v(19)
+HDL-1007 : extracting RAM for identifier 'line_mem' in rtl/filesystem/bmp_nn_resampler.v(20)
+HDL-1007 : elaborate module sd_sector_adapter in rtl/filesystem/sd_sector_adapter.v(4)
+HDL-1007 : elaborate module fat32_volume_scanner in rtl/filesystem/fat32_volume_scanner.v(3)
+HDL-1007 : elaborate module fat32_file_streamer in rtl/filesystem/fat32_file_streamer.v(3)
+HDL-1007 : elaborate module pixel_crc_probe(SERIAL=1,EXPECT0=32'b0101100101000001,EXPECT1=32'b01111110000101,EXPECT2=32'b01101100011101100,EXPECT3=32'b0100110100001100) in rtl/framebank/pixel_crc_probe.v(4)
+HDL-1007 : elaborate module media_frame_loader(DYNAMIC_ORIENTATION=1) in rtl/framebank/media_frame_loader.v(3)
+HDL-1007 : extracting RAM for identifier 'fifo_mem' in rtl/framebank/media_frame_loader.v(65)
+HDL-1007 : elaborate module media_sdram_write_cdc in rtl/framebank/media_sdram_write_cdc.v(3)
+HDL-1007 : elaborate module async_command_fifo in rtl/framebank/media_sdram_write_cdc.v(121)
+HDL-1007 : extracting RAM for identifier 'memory' in rtl/framebank/media_sdram_write_cdc.v(142)
+HDL-1007 : elaborate module period_setting_control in rtl/control/period_setting_control.v(4)
+HDL-1007 : elaborate module panel_control_cdc in rtl/control/panel_control_cdc.v(3)
+HDL-1007 : elaborate module slideshow_key_router(ENABLE_THUMBNAILS=1,ENABLE_PICTURE_MENU=1) in rtl/control/slideshow_key_router.v(6)
+HDL-1007 : elaborate module dual_key_chord_router(DEBOUNCE_CYCLES=2000000,KEY3_LONG_CYCLES=100000000,ENABLE_KEY2_LONG=1) in rtl/control/dual_key_chord_router.v(3)
+HDL-1007 : elaborate module dual_key_long_hold_guard(DEBOUNCE_CYCLES=2000000) in rtl/control/dual_key_long_hold_guard.v(3)
+HDL-1007 : elaborate module k3_hold_control in rtl/control/k3_hold_control.v(3)
+HDL-1007 : elaborate module picture_adjust_control(ENABLE_EMERGENCY=1,ENABLE_K3=1,ENABLE_REMOTE=1) in rtl/control/picture_adjust_control.v(4)
+HDL-1007 : elaborate module sync_fade_gain in rtl/audio/sync_fade_gain.v(14)
+HDL-1007 : elaborate module media_video_pipeline(ENABLE_CRC_DIAG=1,DEFAULT_PERIOD_CYCLES=300000000,FADE_FRAMES=16,ENABLE_THUMBNAILS=1,ENABLE_PICTURE_ADJUST=1,ENABLE_THUMBNAIL_SELECT=1,ENABLE_EMERGENCY=1,ENABLE_CLIP=1,u_reader MAX_INFLIGHT_BURSTS=1) in rtl/framebank/media_video_pipeline.v(3)
+HDL-1007 : elaborate module emergency_scene_control in rtl/control/emergency_scene_control.v(4)
+HDL-1007 : elaborate module thumbnail_controller(ENABLE_EMERGENCY=1) in rtl/control/thumbnail_controller.v(4)
+HDL-1007 : elaborate module thumbnail_layout in rtl/display/thumbnail_layout.v(3)
+HDL-1007 : elaborate module clip_play_control in rtl/video_clip/clip_play_control.v(4)
+HDL-1007 : elaborate module clip_nn_expand in rtl/video_clip/clip_nn_expand.v(4)
+HDL-1007 : extracting RAM for identifier 'line_ram' in rtl/video_clip/clip_nn_expand.v(11)
+HDL-1007 : elaborate module brightness_contrast_adjust in rtl/display/brightness_contrast_adjust.v(5)
+HDL-1007 : elaborate module video_timing_ctrl(ACTIVE_LAST=1) in rtl/framebank/video_timing_ctrl.v(15)
+HDL-1007 : elaborate module video_fade_transition(FADE_FRAMES=16,ENABLE_EMERGENCY=1) in rtl/framebank/video_fade_transition.v(11)
+HDL-1007 : elaborate module media_player_control(DEFAULT_PERIOD_CYCLES=32'b010001111000011010001100000000,ENABLE_DIRECT_SELECT=32'b01,ENABLE_EMERGENCY=1) in rtl/framebank/media_player_control.v(3)
+HDL-1007 : elaborate module media_frame_reader(FIFO_MARGIN=16,MAX_INFLIGHT_BURSTS=1,ENABLE_THUMBNAILS=1,ENABLE_CLIP=1) in rtl/framebank/media_frame_reader.v(3)
+HDL-1007 : port 'doa' remains unconnected for this instance in rtl/framebank/afifo_32_16_256.v(226)
+HDL-1007 : port 'dib' remains unconnected for this instance in rtl/framebank/afifo_32_16_256.v(226)
+HDL-1007 : elaborate module rfifo_32_32_512(AL_FULL_NUM=496) in rtl/framebank/afifo_32_16_256.v(13)
+HDL-1007 : elaborate module fifo_cross_domain_addr_process_al_rfifo_32_32_512 in rtl/framebank/afifo_32_16_256.v(250)
+HDL-1007 : elaborate module ram_infer_rfifo_32_32_512(ADDRWIDTH_A=9,DATAWIDTH_B=32,ADDRWIDTH_B=9) in rtl/framebank/afifo_32_16_256.v(333)
+HDL-1007 : extracting RAM for identifier 'memory' in rtl/framebank/afifo_32_16_256.v(398)
+HDL-5317 WARNING: input port 'dib[31]' is not connected on this instance in rtl/framebank/afifo_32_16_256.v(231)
+HDL-1007 : elaborate module fifo_prefetch_2 in rtl/framebank/fifo_prefetch_2.v(3)
+HDL-1007 : elaborate module pixel_crc_probe(EXPECT0=32'b01100010110010110,EXPECT1=32'b01010011001101100,EXPECT2=32'b01001100100110111,EXPECT3=32'b01101000001110011) in rtl/framebank/pixel_crc_probe.v(4)
+HDL-1007 : elaborate module rgb_video_adapter in rtl/framebank/rgb_video_adapter.v(16)
+HDL-1007 : elaborate module sdram in rtl/base/sd/sdram.v(12)
+HDL-1007 : elaborate module sdr_as_ram(self_refresh_open=1'b1) in rtl/base/include/sdr_as_ram.enc.v(12)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in rtl/base/include/sdr_init_ref.enc.v(47)
+HDL-1007 : elaborate module sdr_init_ref(self_refresh_open=1'b1) in rtl/base/include/sdr_init_ref.enc.v(13)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in rtl/base/include/sdr_wrrd.enc.v(283)
+HDL-1007 : elaborate module ** in rtl/base/include/sdr_wrrd.enc.v(3)
+HDL-5317 WARNING: input port '**' is not connected on this instance in rtl/base/include/sdr_as_ram.enc.v(17)
+HDL-1007 : elaborate module EG_PHY_SDRAM_2M_32 in F:\qiansai_anlu\arch/eagle_macro.v(683)
+HDL-1007 : port 'clip_phase' remains unconnected for this instance in rtl/audio/dual_fat32_pcm_source.v(77)
+HDL-1007 : port 'clip_file_valid' remains unconnected for this instance in rtl/audio/dual_fat32_pcm_source.v(77)
+HDL-1007 : port 'clip_file_done' remains unconnected for this instance in rtl/audio/dual_fat32_pcm_source.v(77)
+HDL-1007 : port 'clip_file_byte' remains unconnected for this instance in rtl/audio/dual_fat32_pcm_source.v(77)
+HDL-1007 : port 'clip_file_error' remains unconnected for this instance in rtl/audio/dual_fat32_pcm_source.v(77)
+HDL-1007 : port 'clip_file_offset' remains unconnected for this instance in rtl/audio/dual_fat32_pcm_source.v(77)
+HDL-1007 : elaborate module dual_fat32_pcm_source(ENABLE_CLIP=1) in rtl/audio/dual_fat32_pcm_source.v(4)
+HDL-1007 : elaborate module fat32_volume_scanner(AUDIO_ONLY=1,DUAL_AUDIO=1,ENABLE_CLIP=1) in rtl/filesystem/fat32_volume_scanner.v(3)
+HDL-1007 : elaborate module clip_file_preloader(EXTERNAL_FILE=1) in rtl/video_clip/clip_file_preloader.v(4)
+HDL-1007 : elaborate module fat32_loop_stream(SHARE_CLIP=1) in rtl/audio/fat32_loop_stream.v(4)
+HDL-1007 : elaborate module wav_stream_player(LOOP=1) in rtl/audio/wav_stream_player.v(25)
+HDL-1007 : extracting RAM for identifier 'buffer' in rtl/audio/wav_stream_player.v(61)
+HDL-1007 : elaborate module fat32_loop_stream in rtl/audio/fat32_loop_stream.v(4)
+HDL-5317 WARNING: input port 'clip_phase' is not connected on this instance in rtl/audio/dual_fat32_pcm_source.v(77)
+HDL-5323 WARNING: input port 'clip_start' remains unconnected for this instance in rtl/audio/dual_fat32_pcm_source.v(77)
+HDL-1007 : elaborate module clip_voice_player in rtl/video_clip/clip_voice_player.v(4)
+HDL-1007 : extracting RAM for identifier 'voice_ram' in rtl/video_clip/clip_voice_player.v(11)
+HDL-1007 : elaborate module osd_overlay_24 in rtl/display/osd_overlay_24.v(8)
+HDL-1007 : elaborate module status_osd_overlay in rtl/display/status_osd_overlay.v(3)
+HDL-1007 : elaborate module pc_time_uart in rtl/uart/pc_time_uart.v(5)
+HDL-1007 : elaborate module uart_rx(CLK_FREQ_HZ=25000000) in rtl/uart/uart_rx.v(1)
+HDL-1007 : elaborate module baud_tick(CLK_FREQ_HZ=25000000) in rtl/uart/baud_tick.v(1)
+HDL-1007 : elaborate module uart_tx in rtl/uart/uart_tx.v(1)
+HDL-1007 : elaborate module wall_clock in rtl/control/wall_clock.v(3)
+HDL-1007 : elaborate module subtitle_uart(ENABLE_EMERGENCY_LOCK=1,ENABLE_PANEL=1) in rtl/uart/subtitle_uart.v(4)
+HDL-1007 : elaborate module subtitle_command(ENABLE_EMERGENCY_LOCK=1,ENABLE_PANEL=1) in rtl/uart/subtitle_command.v(4)
+HDL-1007 : elaborate module emergency_control in rtl/control/emergency_control.v(3)
+HDL-1007 : elaborate module emergency_response_tx in rtl/uart/emergency_response_tx.v(4)
+HDL-1007 : elaborate module dynamic_subtitle_overlay(UART_CONTROL=1,WALL_TIME=1) in rtl/display/dynamic_subtitle_overlay.v(3)
+HDL-1007 : elaborate module promax_text_overlay(SUBTITLE_Y=456,ENABLE_PARAMS=0,MAX_SUBTITLE_CHARS=32,EXTERNAL_RESTART=1) in rtl/display/promax_text_overlay.v(3)
+HDL-1007 : elaborate module scene_chinese_font in rtl/display/scene_chinese_font.v(4)
+HDL-1007 : elaborate module timestamp_osd(OSD_X=560,OSD_Y=16,WALL_TIME=1) in rtl/display/timestamp_osd.v(7)
+HDL-5314 WARNING: net 'frame_bcd[15]' does not have a driver in rtl/display/timestamp_osd.v(34)
+HDL-5314 WARNING: net 'vs_q' does not have a driver in rtl/display/timestamp_osd.v(35)
+HDL-1007 : elaborate module waveform_switch_control in rtl/control/waveform_switch_control.v(4)
+HDL-1007 : elaborate module promax_audio_waveform in rtl/display/promax_audio_waveform.v(3)
+HDL-1007 : extracting RAM for identifier 'sample_bank0' in rtl/display/promax_audio_waveform.v(32)
+HDL-1007 : extracting RAM for identifier 'sample_bank1' in rtl/display/promax_audio_waveform.v(33)
+HDL-1007 : elaborate module emergency_scene_overlay in rtl/display/emergency_scene_overlay.v(3)
+HDL-1007 : elaborate module k3_params_osd in rtl/display/k3_params_osd.v(5)
+HDL-1007 : elaborate module period_setting_osd in rtl/display/period_setting_osd.v(4)
+HDL-1007 : elaborate module media_hdmi_audio_bridge(ENABLE_WAV=1,ENABLE_EMERGENCY=1,DUAL_MUSIC=1,ENABLE_MASTER_VOLUME=1) in rtl/integration/media_hdmi_audio_bridge.v(8)
+HDL-1007 : elaborate module pcm_media_tone in rtl/audio/pcm_media_tone.v(9)
+HDL-1007 : extracting RAM for identifier 'fifo' in rtl/audio/pcm_media_tone.v(33)
+HDL-1007 : elaborate module audio_source_mux in rtl/audio/audio_source_mux.v(9)
+HDL-1007 : elaborate module emergency_audio_mix(DUAL_MUSIC=1,FADE_BITS=10) in rtl/audio/emergency_audio_mix.v(4)
+HDL-1007 : extracting RAM for identifier 'fifo' in rtl/audio/emergency_audio_mix.v(19)
+HDL-1007 : elaborate module pcm_master_volume in rtl/audio/pcm_master_volume.v(4)
+HDL-1007 : elaborate module m06_pcm_contract_adapter in rtl/audio/m06_pcm_contract_adapter.v(6)
+HDL-1007 : elaborate module hdmi_audio_symbol_core in rtl/hdmi_audio/hdmi_audio_symbol_core.v(3)
+HDL-1007 : elaborate module hdmi_audio_sample_packetizer in rtl/hdmi_audio/hdmi_audio_sample_packetizer.v(3)
+HDL-1007 : elaborate module hdmi_bch8 in rtl/hdmi_audio/hdmi_bch8.v(3)
+HDL-1007 : elaborate module hdmi_bch8(DATA_BYTES=7) in rtl/hdmi_audio/hdmi_bch8.v(3)
+HDL-1007 : elaborate module hdmi_audio_acr_packetizer in rtl/hdmi_audio/hdmi_audio_acr_packetizer.v(3)
+HDL-1007 : elaborate module hdmi_audio_infoframe_packetizer in rtl/hdmi_audio/hdmi_audio_infoframe_packetizer.v(3)
+HDL-1007 : elaborate module hdmi_audio_packet_scheduler in rtl/hdmi_audio/hdmi_audio_packet_scheduler.v(3)
+HDL-1007 : elaborate module hdmi_data_island_scheduler in rtl/hdmi_audio/hdmi_data_island_scheduler.v(3)
+HDL-1007 : elaborate module hdmi_data_island_mapper in rtl/hdmi_audio/hdmi_data_island_mapper.v(3)
+HDL-1007 : elaborate module hdmi_tmds_channel_encoder in rtl/hdmi_audio/hdmi_tmds_channel_encoder.v(3)
+HDL-1007 : elaborate module hdmi_terc4_encoder in rtl/hdmi_audio/hdmi_terc4_encoder.v(3)
+HDL-1007 : elaborate module hdmi_tmds_channel_encoder(CHANNEL=1) in rtl/hdmi_audio/hdmi_tmds_channel_encoder.v(3)
+HDL-1007 : elaborate module hdmi_tmds_channel_encoder(CHANNEL=2) in rtl/hdmi_audio/hdmi_tmds_channel_encoder.v(3)
+HDL-1007 : elaborate module hdmi_phy_wrapper in rtl/base/hdmi_phy_warpper.v(3)
+HDL-1007 : elaborate module lane_lvds_10_1 in rtl/base/lane_lvds_10_1.v(4)
+HDL-1007 : elaborate module EG_LOGIC_ODDR in F:\qiansai_anlu\arch/eagle_macro.v(66)
+HDL-1007 : elaborate module seg7_status_panel(ENABLE_CRC_DIAG=1) in rtl/display/seg7_status_panel.v(7)
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-1200 : Current top model is top
+HDL-1100 : Inferred 12 RAMs.
+RUN-1003 : finish command "elaborate -top top" in  1.419279s wall, 1.343750s user + 0.031250s system = 1.375000s CPU (96.9%)
+
+RUN-1004 : used memory is 432 MB, reserved memory is 422 MB, peak memory is 432 MB
+RUN-1002 : start command "read_adc ./constraints/hx4s20_key_slideshow.adc"
+RUN-1002 : start command "set_pin_assignment  clk     LOCATION = R7; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  rst_n   LOCATION = C1; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  key1    LOCATION = A2; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  key2    LOCATION = B2; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  key3    LOCATION = B1; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  emergency_switch   LOCATION = C5; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  period_switch   LOCATION = C6; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  waveform_switch   LOCATION = C7; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  uart_rx   LOCATION = D14; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  uart_tx   LOCATION = G11; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  pc_uart_rx   LOCATION = F12; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  pc_uart_tx   LOCATION = D12; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  sd_ncs    LOCATION = A12; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  sd_miso   LOCATION = B14; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  sd_dclk   LOCATION = A14; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  sd_mosi   LOCATION = A13; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  HDMI_D2_P    LOCATION = E1; IOSTANDARD = LVDS33; "
+RUN-1002 : start command "set_pin_assignment  HDMI_D1_P    LOCATION = F1; IOSTANDARD = LVDS33; "
+RUN-1002 : start command "set_pin_assignment  HDMI_D0_P    LOCATION = G5; IOSTANDARD = LVDS33; "
+RUN-1002 : start command "set_pin_assignment  HDMI_CLK_P   LOCATION = C3; IOSTANDARD = LVDS33; "
+RUN-1002 : start command "set_pin_assignment  HDMI_DDC_SCL   LOCATION = P2; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  HDMI_DDC_SDA   LOCATION = R2; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  seg_data[0]   LOCATION = C15; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  seg_data[1]   LOCATION = C16; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  seg_data[2]   LOCATION = B6;  IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  seg_data[3]   LOCATION = A5;  IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  seg_data[4]   LOCATION = B5;  IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  seg_data[5]   LOCATION = A8;  IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  seg_data[6]   LOCATION = A7;  IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  seg_data[7]   LOCATION = A6;  IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  seg_sel[0]   LOCATION = F16; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  seg_sel[1]   LOCATION = E16; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  seg_sel[2]   LOCATION = E12; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  seg_sel[3]   LOCATION = E10; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  seg_sel[4]   LOCATION = C13; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  seg_sel[5]   LOCATION = F10; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  seg_sel[6]   LOCATION = E11; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  seg_sel[7]   LOCATION = D11; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  clip_switch   LOCATION = C8; IOSTANDARD = LVCMOS33; "
+RUN-1001 : Starting of IO setups legality check.
+RUN-1001 : Starting of IO vref setups legality check.
+RUN-1002 : start command "read_sdc ./constraints/hx4s20_key_slideshow.sdc"
+TD_PROJECT_NEW_FOLDER_ELABORATE_AND_CONSTRAINT_PASS
+RUN-1002 : start command "close_project"

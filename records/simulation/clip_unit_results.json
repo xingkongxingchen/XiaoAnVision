@@ -1,0 +1,42 @@
+[
+  {
+    "case": "control",
+    "pass": true,
+    "exit_code": 0,
+    "summary": [
+      "# TB_PASS SW1 high: three gap-free 20-frame loops with frame-atomic addresses/duration and voice restart; low cancellation, debounce, deferred boot, blocked, emergency resume, readiness loss and reset"
+    ]
+  },
+  {
+    "case": "control_collision",
+    "pass": true,
+    "exit_code": 0,
+    "summary": [
+      "# TB_PASS SW1 high: three gap-free 20-frame loops with frame-atomic addresses/duration and voice restart; low cancellation, debounce, deferred boot, blocked, emergency resume, readiness loss and reset"
+    ]
+  },
+  {
+    "case": "scaler",
+    "pass": true,
+    "exit_code": 0,
+    "summary": [
+      "# TB_PASS 160x120 -> 640x480: all 307200 pixels, 19200 FIFO consumes, synchronous line RAM and fourfold repetition"
+    ]
+  },
+  {
+    "case": "voice",
+    "pass": true,
+    "exit_code": 0,
+    "summary": [
+      "# TB_PASS preloaded voice RAM: two continuous-active voice cycles, 192000 PCM outputs match 16000 signed bytes x6; loop restart, backpressure and cancel"
+    ]
+  },
+  {
+    "case": "preload",
+    "pass": true,
+    "exit_code": 0,
+    "summary": [
+      "# TB_PASS fragmented clip FAT preload, exact memory bounds/order; header/CRC/padding/early-EOF/sector-error/size rejection"
+    ]
+  }
+]

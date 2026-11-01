@@ -1,0 +1,7 @@
+{
+  "pass": true,
+  "exit_code": 0,
+  "summary": [
+    "# TB_PASS file cursor transaction equivalence: 12 cases 9532 bytes; fragmented/SPC/partial/zero files, range/self-loop/EOF/visited/sector errors; one added clock per valid cluster advance"
+  ]
+}

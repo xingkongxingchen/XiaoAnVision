@@ -1,0 +1,30 @@
+[
+  {
+    "case": 0,
+    "pass": true,
+    "summary": [
+      "# TB_PASS cached period threshold cycle-equivalent: DIRECT0 EMERGENCY0 DEFAULT5 checks50351; randomized valid/invalid periods, expiration, manual controls, mailbox, pause, emergency and reset"
+    ]
+  },
+  {
+    "case": 1,
+    "pass": true,
+    "summary": [
+      "# TB_PASS cached period threshold cycle-equivalent: DIRECT1 EMERGENCY0 DEFAULT5 checks50351; randomized valid/invalid periods, expiration, manual controls, mailbox, pause, emergency and reset"
+    ]
+  },
+  {
+    "case": 2,
+    "pass": true,
+    "summary": [
+      "# TB_PASS cached period threshold cycle-equivalent: DIRECT1 EMERGENCY1 DEFAULT5 checks50351; randomized valid/invalid periods, expiration, manual controls, mailbox, pause, emergency and reset"
+    ]
+  },
+  {
+    "case": 3,
+    "pass": true,
+    "summary": [
+      "# TB_PASS cached period threshold cycle-equivalent: DIRECT1 EMERGENCY1 DEFAULT0 checks50351; randomized valid/invalid periods, expiration, manual controls, mailbox, pause, emergency and reset"
+    ]
+  }
+]

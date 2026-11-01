@@ -1,0 +1,10 @@
+{
+  "tag": "loop10r29",
+  "seed": 29,
+  "map_mode": "area_prior",
+  "exit_code": 0,
+  "seconds": 464.4946949481964,
+  "source_changed_during_build": [],
+  "parent_gate_tag": "loop10",
+  "gate_sha256": "99a0e6bf9ccae1de55526a699ee87b2236ef074927bba69c8442bbaaa589ede7"
+}

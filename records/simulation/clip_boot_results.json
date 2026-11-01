@@ -1,0 +1,14 @@
+{
+  "pass": true,
+  "exit_code": 0,
+  "seconds": 83.78570866584778,
+  "summary": [
+    "# CLIP_BOOT_PASS case0: writes384000 ready1 error00 sectors3479, both audio streams resumed with 16 ordered PCM samples",
+    "# CLIP_BOOT_PASS case1: writes0 ready0 error00 sectors66, both audio streams resumed with 16 ordered PCM samples",
+    "# CLIP_BOOT_PASS case2: writes0 ready0 errord4 sectors3479, both audio streams resumed with 16 ordered PCM samples",
+    "# CLIP_BOOT_PASS case3: writes384000 ready0 errord5 sectors3479, both audio streams resumed with 16 ordered PCM samples",
+    "# CLIP_BOOT_PASS case4: writes896 ready0 errord2 sectors74, both audio streams resumed with 16 ordered PCM samples",
+    "# CLIP_BOOT_PASS case5: writes0 ready0 errord1 sectors66, both audio streams resumed with 16 ordered PCM samples",
+    "# TB_PASS clip boot integration: actual asset, fragmented FAT32, scanner/adapter/CDC, exact 384000 writes and drain; optional missing, CRC and partial-burst abort fallback"
+  ]
+}

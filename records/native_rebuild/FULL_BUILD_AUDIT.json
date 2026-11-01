@@ -1,0 +1,85 @@
+{
+  "native_full_flow_and_timing_pass": true,
+  "metrics": {
+    "SWNS_ns": 0.122,
+    "STNS_ns": 0.0,
+    "HWNS_ns": 0.025,
+    "HTNS_ns": 0.0
+  },
+  "resources": {
+    "lut": {
+      "used": 17600,
+      "total": 19600,
+      "percent": 89.8
+    },
+    "reg": {
+      "used": 9814,
+      "total": 19600,
+      "percent": 50.07
+    },
+    "bram": {
+      "used": 48,
+      "total": 64,
+      "percent": 75.0
+    },
+    "dsp": {
+      "used": 17,
+      "total": 29,
+      "percent": 58.62
+    },
+    "pll": {
+      "used": 2,
+      "total": 4,
+      "percent": 50.0
+    }
+  },
+  "rebuilt_bit": {
+    "path": "G:\\qiansai_gongcheng\\release\\al_full_rebuild_20261101\\run02\\post_route_hold_fix\\XiaoAnVision.bit",
+    "bytes": 631952,
+    "sha256": "a17997ef58e1087afc30f44c54bbe6fd6a2267aeffa208d19a9d83c236620fa1"
+  },
+  "frozen_flash_bit": {
+    "path": "G:\\qiansai_gongcheng\\release\\al_full_rebuild_20261101\\run02\\XiaoAnVision\\bitstream\\campus_media_full.bit",
+    "bytes": 631952,
+    "sha256": "9cd93289ff80836c85ac8390bd81eed5641eff19164ff116f81952128ccd7f93"
+  },
+  "bits_byte_identical": false,
+  "bits_same_size": true,
+  "different_byte_positions": 674,
+  "binary_payload_byte_identical_after_ascii_header": false,
+  "rebuilt_ascii_header_bytes": 287,
+  "frozen_ascii_header_bytes": 287,
+  "source_input_changes": [],
+  "original_submission_archive_unchanged": true,
+  "hardware_download_or_flash_write_performed": false,
+  "timing_report": "G:\\qiansai_gongcheng\\release\\al_full_rebuild_20261101\\run02\\post_route_hold_fix\\route.timing",
+  "area_report": "G:\\qiansai_gongcheng\\release\\al_full_rebuild_20261101\\run02\\post_route_hold_fix\\route.area",
+  "process_result": {
+    "native_exit_code": 0,
+    "elapsed_seconds": 410.95,
+    "finished_utc": "2026-11-01T12:44:11.633408+00:00",
+    "source_input_changes": [],
+    "generated_bits": [
+      {
+        "path": "G:\\qiansai_gongcheng\\release\\al_full_rebuild_20261101\\run02\\XiaoAnVision\\fpga\\XiaoAnVision_Runs\\best_result\\XiaoAnVision.bit",
+        "bytes": 631952,
+        "sha256": "727fc4706e288a022393dec14e0d63d76b38f8df35d606df7904d3d66556c4ff",
+        "same_as_frozen_flash_bit": false
+      },
+      {
+        "path": "G:\\qiansai_gongcheng\\release\\al_full_rebuild_20261101\\run02\\XiaoAnVision\\fpga\\XiaoAnVision_Runs\\phy_1\\XiaoAnVision.bit",
+        "bytes": 631952,
+        "sha256": "727fc4706e288a022393dec14e0d63d76b38f8df35d606df7904d3d66556c4ff",
+        "same_as_frozen_flash_bit": false
+      }
+    ],
+    "stage": "TD_COMMANDS_COMPLETED",
+    "source_archive_unchanged": true
+  },
+  "explicit_post_route_hold_fix": {
+    "exit_code": 0,
+    "elapsed_seconds": 25.75,
+    "input_database": "G:\\qiansai_gongcheng\\release\\al_full_rebuild_20261101\\run02\\XiaoAnVision\\fpga\\XiaoAnVision_Runs\\phy_1\\XiaoAnVision_pr.db",
+    "hardware_write_performed": false
+  }
+}
